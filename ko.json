@@ -27,15 +27,15 @@
             "month": "$[m] $[y]의 활동",
             "year": "$[y]의 활동"
         },
-        "AM": "AM",
-        "am": "am",
+        "AM": "오전",
+        "am": "오전",
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "뒤로",
             "cancel": "취소",
             "date": "날짜 고르기",								  
             "exit": "나가기",
-            "ok": "OK",
+            "ok": "확인",
             "sort": "순서",
             "view": "단위 변경"
         },
@@ -44,10 +44,10 @@
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
         "yearSuffix": "",
         "dateSuffix": {
-            "nd": "",
-            "rd": "",
-            "st": "",
-            "th": ""
+            "nd": "nd",
+            "rd": "rd",
+            "st": "st",
+            "th": "th"
         },
         "datePanel": {
             "headingDate": "1일 단위로 보기",
@@ -102,9 +102,9 @@
                 "dec": "12월"
             }
         },
-        "off": "Off",
-        "on": "On",
-        "no": "No",
+        "off": "끔,
+        "on": "켬",
+        "no": "아니오",
         "noActivity": "이 기간동안 플레이한 기록이 없습니다.",
         "playedFor" : {
             "0min": "1분 미만 플레이함",
@@ -140,8 +140,8 @@
         },
         "playtimeHours": "플레이타임 (시간 단위)",
         "playtimeMinutes": "플레이타임 (분 단위)",
-        "PM": "PM",
-        "pm": "pm",
+        "PM": "오후",
+        "pm": "오후",
         "reinx": "ReiNX",
         "screen": {
             "allActivity": "모든 활동",
@@ -186,7 +186,7 @@
             "month": "1달 단위",
             "year": "1년 단위"
         },
-        "yes": "Yes"
+        "yes": "예"
     },
     "customTheme": {
         "accent": "강조색",
