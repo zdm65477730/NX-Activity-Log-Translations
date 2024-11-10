@@ -1,6 +1,6 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "プレイ時間を調整する",
         "picker": {
             "hour": "時間",
             "minute": "分",
