@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "Adjust Playtime",
+        "picker": {
+            "hour": "Hour",
+            "minute": "Minute",
+            "second": "Second"
+        },
+        "save": "Save"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "Ordenar por: Jugado por primera vez",
@@ -23,6 +32,7 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Volver",
+            "cancel": "Cancel",
             "date": "Selecciona fecha",
             "exit": "Salir",
             "ok": "OK",
@@ -234,6 +244,12 @@
             "once": "1 vez"
         }
     },
+    "hideTitles": {
+        "heading": "Choose Titles to Hide",
+        "save": "Save",
+        "titleHidden": "title hidden",
+        "titlesHidden": "titles hidden"
+    },
     "recentActivity": {
         "titleHeading": "Títulos jugados"
     },
@@ -255,6 +271,21 @@
             "themeEdit": "Personalizar tema",
             "themeHint": "El tema a utilizar para la aplicación. Automáticamente elige blanco/negro según la configuración de tu Switch. Selecciona Personalizado para establecer una imagen de fondo y ajustar los colores."
         },
+        "importExport": {
+            "deleteImport": "Delete Imported Data",
+            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
+            "deleteSuccessful": "Imported data deleted successfully.",
+            "export": "Export Play Data to JSON",
+            "exporting": "Exporting data...",
+            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
+            "exportSuccessful": "Play data exported successfully.",
+            "import": "Import Play Data from JSON",
+            "importing": "Importing data...",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
+            "importSuccessful": "Play data imported successfully.",
+            "heading": "Import/Export",
+            "noImportFile": "import.json was not found at the required location."
+        },
         "launch": {
             "heading": "Opciones de inicio",
             "screen": "Pantalla predeterminada",
@@ -265,9 +296,11 @@
             "viewHint": "El período de actividad para ver en el inicio."
         },
         "other": {
+            "adjust": "Adjust Playtime",
+            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
             "heading": "Otras opciones",
-            "hideDeleted": "Ocultar juegos borrados",
-            "hideDeletedHint": "Excluye los juegos borrados de 'Toda la actividad'.",
+            "hide": "Ocultar juegos borrados",
+            "hideHint": "Excluye los juegos borrados de 'Toda la actividad'.",
             "replace": "Reemplazar página de usuario",
             "replaceBox": {
                 "error": "Ocurrió un error:",

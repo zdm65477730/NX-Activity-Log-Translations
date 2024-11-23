@@ -58,7 +58,6 @@
             "year": "년"
         },
         "default": "시스템 기본값",
-        "delete": "지우기",
         "disabled": "꺼짐",
         "enabled": "켜짐",
         "heading": "$[name]의 활동",
@@ -102,7 +101,7 @@
                 "dec": "12월"
             }
         },
-        "off": "끔,
+        "off": "끔",
         "on": "켬",
         "no": "아니오",
         "noActivity": "이 기간동안 플레이한 기록이 없습니다.",
@@ -273,8 +272,6 @@
             "themeHint": "이 어플리케이션에서 사용할 테마를 고르세요. 자동은 스위치 설정의 테마를 따라갑니다. 색상조정및 배경화면 이미지를 사용하려면 사용자 테마를 누르세요."
         },
         "importExport": {
-            "confirmDelete": "정말 모든 가져온 기록을 지우겠습니까?",
-            "confirmDeleteBody": "이 작업은 취소될 수 없습니다.",
             "deleteImport": "가져온 기록 지우기",
             "deleteImportHint": "이전에 가져온 기록 지우기. 적용을 위해 어플리케이션이 재시작 되어야 합니다.",
             "deleteSuccessful": "가져온 기록이 성공적으로 지워졌습니다.",

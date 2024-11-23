@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "Adjust Playtime",
+        "picker": {
+            "hour": "Hour",
+            "minute": "Minute",
+            "second": "Second"
+        },
+        "save": "Save"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "Sortieren nach: Zuerst gespielt",
@@ -10,7 +19,7 @@
             "recentlyPlayed": "Sortieren nach: Zuletzt gespielt"
         }
     },
-	"common": {
+    "common": {
         "12H": "$[h]$[s]",
         "activityFor": {
             "day": "Aktivität für den $[d]. $[m]",
@@ -23,6 +32,7 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Zurück",
+            "cancel": "Cancel",
             "date": "Datum auswählen",
             "exit": "Verlassen",
             "ok": "OK",
@@ -136,7 +146,7 @@
             "allActivity": "Alle Aktivitäten",
             "recentActivity": "Neueste Aktivitäten",
             "settings": "Einstellungen"
-		},
+        },
         "sort": {
             "firstPlayed": "Zuerst gespielt",
             "heading": "Sortieren nach",
@@ -234,6 +244,12 @@
             "once": "1 mal"
         }
     },
+    "hideTitles": {
+        "heading": "Choose Titles to Hide",
+        "save": "Save",
+        "titleHidden": "title hidden",
+        "titlesHidden": "titles hidden"
+    },
     "recentActivity": {
         "titleHeading": "Gespielte Spiele"
     },
@@ -255,6 +271,21 @@
             "themeEdit": "App-Theme bearbeiten",
             "themeHint": "Das Design, das für diese App benutzt wird. 'Automatisch' wählt das aktuelle Design deiner Switch aus. Beachte: Die App muss neu gestartet werden, um die Einstellungen zu speichern."
         },
+        "importExport": {
+            "deleteImport": "Delete Imported Data",
+            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
+            "deleteSuccessful": "Imported data deleted successfully.",
+            "export": "Export Play Data to JSON",
+            "exporting": "Exporting data...",
+            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
+            "exportSuccessful": "Play data exported successfully.",
+            "import": "Import Play Data from JSON",
+            "importing": "Importing data...",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
+            "importSuccessful": "Play data imported successfully.",
+            "heading": "Import/Export",
+            "noImportFile": "import.json was not found at the required location."
+        },
         "launch": {
             "heading": "Startoptionen",
             "screen": "Standardfenster",
@@ -265,9 +296,11 @@
             "viewHint": "Der Zeitraum der Aktivtät, die beim Starten der App angezeigt wird"
         },
         "other": {
+            "adjust": "Adjust Playtime",
+            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
             "heading": "Sonstige Einstellungen",
-            "hideDeleted": "Gelöschte Spiele verstecken",
-            "hideDeletedHint": "Zeigt Spiele, die du von deiner Switch gelöscht hast nicht mehr bei 'Gesamte Aktivitäten' an.",
+            "hide": "Gelöschte Spiele verstecken",
+            "hideHint": "Zeigt Spiele, die du von deiner Switch gelöscht hast nicht mehr bei 'Gesamte Aktivitäten' an.",
             "replace": "Profilseite ersetzen",
             "replaceBox": {
                 "error": "Ein Fehler ist aufgetreten:",

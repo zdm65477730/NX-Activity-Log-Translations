@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "Adjust Playtime",
+        "picker": {
+            "hour": "Hour",
+            "minute": "Minute",
+            "second": "Second"
+        },
+        "save": "Save"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "Sıralama ölçütü: İlk Oynatma Süresi",
@@ -23,6 +32,7 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Geri",
+            "cancel": "Cancel",
             "date": "Tarih Seçin",
             "exit": "Çıkış",
             "ok": "TAMAM",
@@ -234,6 +244,12 @@
             "once": "1 kere"
         }
     },
+    "hideTitles": {
+        "heading": "Choose Titles to Hide",
+        "save": "Save",
+        "titleHidden": "title hidden",
+        "titlesHidden": "titles hidden"
+    },
     "recentActivity": {
         "titleHeading": "Oynanan İçerikler"
     },
@@ -255,6 +271,21 @@
             "themeEdit": "Temayı Özelleştir",
             "themeHint": "Uygulama için kullanılacak tema. Otomatik, Switch ayarlarınıza bağlı olarak siyah/beyaz seçer. Bir arka plan görüntüsü ayarlamak ve renkleri ayarlamak için Özel'i seçin."
         },
+        "importExport": {
+            "deleteImport": "Delete Imported Data",
+            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
+            "deleteSuccessful": "Imported data deleted successfully.",
+            "export": "Export Play Data to JSON",
+            "exporting": "Exporting data...",
+            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
+            "exportSuccessful": "Play data exported successfully.",
+            "import": "Import Play Data from JSON",
+            "importing": "Importing data...",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
+            "importSuccessful": "Play data imported successfully.",
+            "heading": "Import/Export",
+            "noImportFile": "import.json was not found at the required location."
+        },
         "launch": {
             "heading": "Başlatma Ayarları",
             "screen": "Varsayılan Ekran",
@@ -265,6 +296,8 @@
             "viewHint": "Lansmanda görüntülenecek faaliyet dönemi."
         },
         "other": {
+            "adjust": "Adjust Playtime",
+            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
             "heading": "Diğer Seçenekler",
             "hideDeleted": "Silinmiş Oyunları Gizle",
             "hideDeletedHint": "Silinen oyunları 'Tüm Etkinlik'ten hariç tutar.",

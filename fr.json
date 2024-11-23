@@ -32,6 +32,7 @@
         "atmosphere": "Atmosphère",
         "buttonHint": {
             "back": "Retour",
+            "cancel": "Cancel",
             "date": "Choisir la date",
             "exit": "Quitter",
             "ok": "OK",
@@ -104,7 +105,7 @@
         "on": "On",
         "no": "Non",
         "noActivity": "Pas d'activité de jeu enregistrée pendant cette période.",
-        "playedFor": {
+        "playedFor" : {
             "0min": "Joué moins d'une minute",
             "1min": "Joué 1 minute",
             "mins": "Joué $[m] minutes",
@@ -271,8 +272,6 @@
             "themeHint": "Le thème à utiliser pour l'application. Le thème clair/sombre est choisi par défaut en fonction des paramètres de votre Switch. Choisissez 'Personnalisé' pour appliquer un fond d'écran et/ou changer les couleurs."
         },
         "importExport": {
-            "confirmDelete": "Êtes-vous sûr de vouloir supprimer toutes les données importées ?",
-            "confirmDeleteBody": "Cette action ne peut être annulée.",
             "deleteImport": "Supprimer les données importées",
             "deleteImportHint": "Supprime les données de jeu précédemment importées. L'application doit être redémarrée pour que cela prenne effet.",
             "deleteSuccessful": "Les données importées ont été supprimées avec succès.",

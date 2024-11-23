@@ -58,7 +58,6 @@
             "year": "Ano"
         },
         "default": "Padrão do sistema",
-        "delete": "Deletar",
         "disabled": "Desativado",
         "enabled": "Ativado",
         "heading": "Página de $[name]",
@@ -273,8 +272,6 @@
             "themeHint": "O tema que será usado pelo aplicativo. Automático segue o tema atualmente utilizado pelo seu Nintendo Switch. Selecione personalizado para definir uma imagem de fundo e ajustar as cores."
         },
         "importExport": {
-            "confirmDelete": "Tem certeza de que deseja excluir todos os dados importados?",
-            "confirmDeleteBody": "Essa ação não pode ser desfeita.",
             "deleteImport": "Apagar dados importados",
             "deleteImportHint": "Apaga os dados de jogos importados anteriormente. O aplicativo deve ser reiniciado para que isso tenha efeito.",
             "deleteSuccessful": "Os dados importados foram excluídos com sucesso.",

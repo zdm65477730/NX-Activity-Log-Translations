@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "Adjust Playtime",
+        "picker": {
+            "hour": "Hour",
+            "minute": "Minute",
+            "second": "Second"
+        },
+        "save": "Save"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "Сортировка по: первому запуску",
@@ -23,6 +32,7 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Назад",
+            "cancel": "Cancel",
             "date": "Выбор даты",
             "exit": "Выход",
             "ok": "ОК",
@@ -234,6 +244,12 @@
             "once": "1 раз"
         }
     },
+    "hideTitles": {
+        "heading": "Choose Titles to Hide",
+        "save": "Save",
+        "titleHidden": "title hidden",
+        "titlesHidden": "titles hidden"
+    },
     "recentActivity": {
         "titleHeading": "Игры, которые вы запускали"
     },
@@ -255,6 +271,21 @@
             "themeEdit": "Редактировать тему",
             "themeHint": "Тема приложения. 'Авто' устанавливает черную/белую на основе темы консоли. Выберите 'Кастомная' для настройки фона и цветов."
         },
+        "importExport": {
+            "deleteImport": "Delete Imported Data",
+            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
+            "deleteSuccessful": "Imported data deleted successfully.",
+            "export": "Export Play Data to JSON",
+            "exporting": "Exporting data...",
+            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
+            "exportSuccessful": "Play data exported successfully.",
+            "import": "Import Play Data from JSON",
+            "importing": "Importing data...",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
+            "importSuccessful": "Play data imported successfully.",
+            "heading": "Import/Export",
+            "noImportFile": "import.json was not found at the required location."
+        },
         "launch": {
             "heading": "Настройки запуска",
             "screen": "Экран по умолчанию",
@@ -265,9 +296,11 @@
             "viewHint": "Период активности для показа при запуске."
         },
         "other": {
+            "adjust": "Adjust Playtime",
+            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
             "heading": "Другие настройки",
-            "hideDeleted": "Скрыть удалённые игры",
-            "hideDeletedHint": "Исключить удалённые игры из всей активности.",
+            "hide": "Скрыть удалённые игры",
+            "hideHint": "Исключить удалённые игры из всей активности.",
             "replace": "Заменить страницу пользователя",
             "replaceBox": {
                 "error": "Произошла ошибка:",
