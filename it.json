@@ -58,6 +58,7 @@
             "year": "Anno"
         },
         "default": "Default di sistema",
+        "delete": "Delete",
         "disabled": "Disabilitato",
         "enabled": "Abilitato",
         "heading": "Pagina di $[name]",
@@ -272,6 +273,8 @@
             "themeHint": "Tema per l'applicazione. Automatico sceglie tra bianco e nero in base alle impostazioni della tua Switch. Seleziona Personalizzato per impostare uno sfondo e aggiustare i colori."
         },
         "importExport": {
+            "confirmDelete": "Are you sure you wish to delete all imported data?",
+            "confirmDeleteBody": "This action cannot be undone.",
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "deleteSuccessful": "Imported data deleted successfully.",

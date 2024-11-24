@@ -58,6 +58,7 @@
             "year": "年"
         },
         "default": "系統默認",
+        "delete": "刪除",
         "disabled": "關閉",
         "enabled": "開啟",
         "heading": "$[name]的動態",
@@ -272,6 +273,8 @@
             "themeHint": "用於應用程序的主題。自動根據您的NS的設置選擇暗色系或者亮色系主題。選擇自定義可以設置背景圖像並調整顏色。"
         },
         "importExport": {
+            "confirmDelete": "您確定要刪除所有導入的數據嗎？",
+            "confirmDeleteBody": "此操作無法撤消。",
             "deleteImport": "刪除導入的數據",
             "deleteImportHint": "刪除之前導入的遊玩數據。必須重新啟動應用程序才能使其生效。",
             "deleteSuccessful": "已成功刪除導入的數據。",

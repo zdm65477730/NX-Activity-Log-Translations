@@ -58,6 +58,7 @@
             "year": "Jahr"
         },
         "default": "Systemstandard",
+        "delete": "Delete",
         "disabled": "Deaktiviert",
         "enabled": "Aktiviert",
         "heading": "$[name]s Aktivität",
@@ -272,6 +273,8 @@
             "themeHint": "Das Design, das für diese App benutzt wird. 'Automatisch' wählt das aktuelle Design deiner Switch aus. Beachte: Die App muss neu gestartet werden, um die Einstellungen zu speichern."
         },
         "importExport": {
+            "confirmDelete": "Are you sure you wish to delete all imported data?",
+            "confirmDeleteBody": "This action cannot be undone.",
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "deleteSuccessful": "Imported data deleted successfully.",

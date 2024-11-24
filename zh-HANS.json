@@ -58,6 +58,7 @@
             "year": "年"
         },
         "default": "系统默认",
+        "delete": "刪除",
         "disabled": "关闭",
         "enabled": "开启",
         "heading": "$[name]的动态",
@@ -272,6 +273,8 @@
             "themeHint": "用于应用程序的主题。自动根据您的NS的设置选择暗色系或者亮色系主题。选择自定义可以设置背景图像并调整颜色。"
         },
         "importExport": {
+            "confirmDelete": "您确定要删除所有导入的数据吗？",
+            "confirmDeleteBody": "此操作无法撤消。",
             "deleteImport": "删除导入的数据",
             "deleteImportHint": "删除之前导入的游玩数据。必须重新启动应用程序才能使其生效。",
             "deleteSuccessful": "已成功删除导入的数据。",

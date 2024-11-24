@@ -58,6 +58,7 @@
             "year": "Год"
         },
         "default": "По умолчанию",
+        "delete": "Delete",
         "disabled": "Выключено",
         "enabled": "Включено",
         "heading": "Активность пользователя $[name]",
@@ -272,6 +273,8 @@
             "themeHint": "Тема приложения. 'Авто' устанавливает черную/белую на основе темы консоли. Выберите 'Кастомная' для настройки фона и цветов."
         },
         "importExport": {
+            "confirmDelete": "Are you sure you wish to delete all imported data?",
+            "confirmDeleteBody": "This action cannot be undone.",
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "deleteSuccessful": "Imported data deleted successfully.",

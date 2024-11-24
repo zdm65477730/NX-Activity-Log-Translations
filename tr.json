@@ -58,6 +58,7 @@
             "year": "Yıl"
         },
         "default": "Sistem Varsayılanı",
+        "delete": "Delete",
         "disabled": "Devredışı",
         "enabled": "Etkin",
         "heading": "$[name] Aktivitesi",
@@ -272,6 +273,8 @@
             "themeHint": "Uygulama için kullanılacak tema. Otomatik, Switch ayarlarınıza bağlı olarak siyah/beyaz seçer. Bir arka plan görüntüsü ayarlamak ve renkleri ayarlamak için Özel'i seçin."
         },
         "importExport": {
+            "confirmDelete": "Are you sure you wish to delete all imported data?",
+            "confirmDeleteBody": "This action cannot be undone.",
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "deleteSuccessful": "Imported data deleted successfully.",

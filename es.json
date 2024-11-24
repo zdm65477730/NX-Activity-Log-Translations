@@ -58,6 +58,7 @@
             "year": "Año"
         },
         "default": "Predeterminado del sistema",
+        "delete": "Delete",
         "disabled": "Desactivado",
         "enabled": "Activado",
         "heading": "Actividad de $[name]",
@@ -272,6 +273,8 @@
             "themeHint": "El tema a utilizar para la aplicación. Automáticamente elige blanco/negro según la configuración de tu Switch. Selecciona Personalizado para establecer una imagen de fondo y ajustar los colores."
         },
         "importExport": {
+            "confirmDelete": "Are you sure you wish to delete all imported data?",
+            "confirmDeleteBody": "This action cannot be undone.",
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "deleteSuccessful": "Imported data deleted successfully.",
