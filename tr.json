@@ -1,12 +1,12 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "Oynatma Süresini Ayarla",
         "picker": {
-            "hour": "Hour",
-            "minute": "Minute",
-            "second": "Second"
+            "hour": "Saat",
+            "minute": "Dakika",
+            "second": "Saniye"
         },
-        "save": "Save"
+        "save": "Kaydet"
     },
     "allActivity": {
         "sort": {
@@ -246,10 +246,10 @@
         }
     },
     "hideTitles": {
-        "heading": "Choose Titles to Hide",
-        "save": "Save",
-        "titleHidden": "title hidden",
-        "titlesHidden": "titles hidden"
+        "heading": "Gizlenecek Başlıkları Seçin",
+        "save": "Kaydet",
+        "titleHidden": "başlık gizli",
+        "titlesHidden": "başlıklar gizli"
     },
     "recentActivity": {
         "titleHeading": "Oynanan İçerikler"
@@ -273,21 +273,21 @@
             "themeHint": "Uygulama için kullanılacak tema. Otomatik, Switch ayarlarınıza bağlı olarak siyah/beyaz seçer. Bir arka plan görüntüsü ayarlamak ve renkleri ayarlamak için Özel'i seçin."
         },
         "importExport": {
-            "confirmDelete": "Are you sure you wish to delete all imported data?",
-            "confirmDeleteBody": "This action cannot be undone.",
-            "deleteImport": "Delete Imported Data",
-            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
-            "deleteSuccessful": "Imported data deleted successfully.",
-            "export": "Export Play Data to JSON",
-            "exporting": "Exporting data...",
-            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
-            "exportSuccessful": "Play data exported successfully.",
-            "import": "Import Play Data from JSON",
-            "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
-            "importSuccessful": "Play data imported successfully.",
-            "heading": "Import/Export",
-            "noImportFile": "import.json was not found at the required location."
+            "confirmDelete": "Tüm içe aktarılan verileri silmek istediğinizden emin misiniz?",
+            "confirmDeleteBody": "Bu işlem geri alınamaz.",
+            "deleteImport": "İçe Aktarılan Verileri Sil",
+            "deleteImportHint": "Önceden içe aktarılan oynatma verilerini silin. Bunun etkili olması için uygulamanın yeniden başlatılması gerekir.",
+            "deleteSuccessful": "İçe aktarılan veriler başarıyla silindi.",
+            "export": "Oynatma Verileri JSON'a Aktar",
+            "exporting": "Veriler dışa aktarılıyor...",
+            "exportHint": "Tüm kullanıcıların oynatma verilerini /switch/NX-Activity-Log/export.json konumundaki bir JSON'a aktarın. Zaten mevcutsa bu dosya üzerine yazılacaktır.",
+            "exportSuccessful": "Oynatma verileri başarıyla dışa aktarıldı.",
+            "import": "Oynatma Verileri JSON'dan İçe Aktar",
+            "importing": "Veriler içe aktarılıyor...",
+            "importHint": "Oynatma verilerini /switch/NX-Activity-Log/import.json konumundaki JSON'dan NX-Activity-Log'a aktarın ve daha önce içe aktarılan verilerin üzerine yazın. Veriler kullanıcı adlarının eşleştiği yerle ilişkilendirilecektir. Bunun etkili olması için uygulamanın yeniden başlatılması gerekir.",
+            "importSuccessful": "Oynatma verileri başarıyla içe aktarıldı.",
+            "heading": "İçe/Dışa Aktar",
+            "noImportFile": "import.json gereken konumda bulunamadı."
         },
         "launch": {
             "heading": "Başlatma Ayarları",
@@ -299,8 +299,8 @@
             "viewHint": "Lansmanda görüntülenecek faaliyet dönemi."
         },
         "other": {
-            "adjust": "Adjust Playtime",
-            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
+            "adjust": "Oynatma Süresini Ayarla",
+            "adjustHint": "Seçilen kullanıcı için her başlığın oynatma süresini ayrı ayrı ayarla.",
             "heading": "Diğer Seçenekler",
             "hideDeleted": "Silinmiş Oyunları Gizle",
             "hideDeletedHint": "Silinen oyunları 'Tüm Etkinlik'ten hariç tutar.",
@@ -313,7 +313,7 @@
                 "success": "Kurulum başarılı!",
                 "successMsg1": "Aşağıdaki CFW'ler algılandı ve bu özellik etkinleştirildi:",
                 "successMsg2": "Not: Bu özellik bir sistem modülünü kullanmaz, herhangi bir hatayla karşılaşırsanız uygulamada bu özelliği devre dışı bırakın veya silin",
-                "successMsg3": "<cfw content folder> /0100000000001013/exefs.nsp"
+                "successMsg3": "<cfw içerik klasörü>/0100000000001013/exefs.nsp"
             },
             "replaceHint": "Kullanıcı Sayfasını bu uygulamayla değiştirin. LayeredFS ve Atmosfer 0.10.0+, ReiNX veya SXOS gerektirir."
         },

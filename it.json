@@ -1,12 +1,12 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "Regola tempo di riproduzione",
         "picker": {
-            "hour": "Hour",
-            "minute": "Minute",
-            "second": "Second"
+            "hour": "Ora",
+            "minute": "Minuto",
+            "second": "Secondo"
         },
-        "save": "Save"
+        "save": "Salva"
     },
     "allActivity": {
         "sort": {
@@ -32,10 +32,10 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Indietro",
-            "cancel": "Cancel",
+            "cancel": "Cancellare",
             "date": "Seleziona data",
             "exit": "Esci",
-            "ok": "Ok",
+            "ok": "OK",
             "sort": "Ordina",
             "view": "Cambia visuale"
         },
@@ -57,8 +57,8 @@
             "month": "Mese",
             "year": "Anno"
         },
-        "default": "Default di sistema",
-        "delete": "Delete",
+        "default": "Predefinito del sistema",
+        "delete": "Eliminare",
         "disabled": "Disabilitato",
         "enabled": "Abilitato",
         "heading": "Pagina di $[name]",
@@ -194,7 +194,7 @@
         "apply": "Applica",
         "background": "Sfono",
         "picker": {
-            "alpha": "Alpha",
+            "alpha": "Alfa",
             "blue": "Blu",
             "green": "Verde",
             "red": "Rosso",
@@ -246,10 +246,10 @@
         }
     },
     "hideTitles": {
-        "heading": "Choose Titles to Hide",
-        "save": "Save",
-        "titleHidden": "title hidden",
-        "titlesHidden": "titles hidden"
+        "heading": "Scegli i titoli da nascondere",
+        "save": "Salva",
+        "titleHidden": "titolo nascosto",
+        "titlesHidden": "titoli nascosti"
     },
     "recentActivity": {
         "titleHeading": "Attività di gioco"
@@ -273,21 +273,21 @@
             "themeHint": "Tema per l'applicazione. Automatico sceglie tra bianco e nero in base alle impostazioni della tua Switch. Seleziona Personalizzato per impostare uno sfondo e aggiustare i colori."
         },
         "importExport": {
-            "confirmDelete": "Are you sure you wish to delete all imported data?",
-            "confirmDeleteBody": "This action cannot be undone.",
-            "deleteImport": "Delete Imported Data",
-            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
-            "deleteSuccessful": "Imported data deleted successfully.",
-            "export": "Export Play Data to JSON",
-            "exporting": "Exporting data...",
-            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
-            "exportSuccessful": "Play data exported successfully.",
-            "import": "Import Play Data from JSON",
-            "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
-            "importSuccessful": "Play data imported successfully.",
-            "heading": "Import/Export",
-            "noImportFile": "import.json was not found at the required location."
+            "confirmDelete": "Sei sicuro di voler eliminare tutti i dati importati?",
+            "confirmDeleteBody": "Questa azione non può essere annullata.",
+            "deleteImport": "Elimina dati importati",
+            "deleteImportHint": "Elimina i dati di gioco importati in precedenza. L'applicazione deve essere riavviata affinché questa operazione abbia effetto.",
+            "deleteSuccessful": "Dati importati eliminati correttamente.",
+            "export": "Esporta dati di gioco in JSON",
+            "exporting": "Esportazione dati...",
+            "exportHint": "Esporta tutti i dati di gioco degli utenti in un JSON in /switch/NX-Activity-Log/export.json. Questo file verrà sovrascritto se esiste già.",
+            "exportSuccessful": "Dati di gioco esportati correttamente.",
+            "import": "Importa dati di gioco da JSON",
+            "importing": "Importazione dati...",
+            "importHint": "Importa dati di gioco dal JSON in /switch/NX-Activity-Log/import.json in NX-Activity-Log, sovrascrivendo tutti i dati importati in precedenza. I dati saranno associati dove i nomi utente corrispondono. L'applicazione deve essere riavviata affinché ciò abbia effetto.",
+            "importSuccessful": "dati di riproduzione sono stati importati correttamente.",
+            "heading": "Importa/Esporta",
+            "noImportFile": "import.json non è stato trovato nella posizione richiesta."
         },
         "launch": {
             "heading": "Opzioni di lancio",
@@ -299,8 +299,8 @@
             "viewHint": "Periodo di attività da usare al lancio."
         },
         "other": {
-            "adjust": "Adjust Playtime",
-            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
+            "adjust": "Regola tempo di riproduzione",
+            "adjustHint": "Regola il tempo di riproduzione di ogni titolo individualmente per l'utente selezionato.",
             "heading": "Altre opzioni",
             "hide": "Nascondi giochi eliminati",
             "hideHint": "Esclude giochi eliminati da 'Attività totale'.",

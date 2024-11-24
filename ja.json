@@ -42,12 +42,12 @@
         "close": "閉じる",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
-        "yearSuffix": "",
+        "yearSuffix": "年",
         "dateSuffix": {
-            "nd": "nd",
-            "rd": "rd",
-            "st": "st",
-            "th": "th"
+            "nd": "日",
+            "rd": "日",
+            "st": "日",
+            "th": "日"
         },
         "datePanel": {
             "headingDate": "日付を表示",

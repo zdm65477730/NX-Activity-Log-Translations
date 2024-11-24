@@ -1,12 +1,12 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "Настроить время воспроизведения",
         "picker": {
-            "hour": "Hour",
-            "minute": "Minute",
-            "second": "Second"
+            "hour": "Час",
+            "minute": "Минута",
+            "second": "Секунда"
         },
-        "save": "Save"
+        "save": "Сохранить"
     },
     "allActivity": {
         "sort": {
@@ -246,10 +246,10 @@
         }
     },
     "hideTitles": {
-        "heading": "Choose Titles to Hide",
-        "save": "Save",
-        "titleHidden": "title hidden",
-        "titlesHidden": "titles hidden"
+        "heading": "Выберите заголовки для скрытия",
+        "save": "Сохранить",
+        "titleHidden": "заголовок скрыт",
+        "titlesHidden": "заголовки скрыты"
     },
     "recentActivity": {
         "titleHeading": "Игры, которые вы запускали"
@@ -273,21 +273,21 @@
             "themeHint": "Тема приложения. 'Авто' устанавливает черную/белую на основе темы консоли. Выберите 'Кастомная' для настройки фона и цветов."
         },
         "importExport": {
-            "confirmDelete": "Are you sure you wish to delete all imported data?",
-            "confirmDeleteBody": "This action cannot be undone.",
-            "deleteImport": "Delete Imported Data",
-            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
-            "deleteSuccessful": "Imported data deleted successfully.",
-            "export": "Export Play Data to JSON",
-            "exporting": "Exporting data...",
-            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
-            "exportSuccessful": "Play data exported successfully.",
-            "import": "Import Play Data from JSON",
-            "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
-            "importSuccessful": "Play data imported successfully.",
-            "heading": "Import/Export",
-            "noImportFile": "import.json was not found at the required location."
+            "confirmDelete": "Вы уверены, что хотите удалить все импортированные данные?",
+            "confirmDeleteBody": "Это действие нельзя отменить.",
+            "deleteImport": "Удалить импортированные данные",
+            "deleteImportHint": "Удалить ранее импортированные данные воспроизведения. Чтобы изменения вступили в силу, необходимо перезапустить приложение.",
+            "deleteSuccessful": "Импортированные данные успешно удалены.",
+            "export": "Экспортировать данные воспроизведения в JSON",
+            "exporting": "Экспорт данных...",
+            "exportHint": "Экспортировать данные воспроизведения всех пользователей в JSON в /switch/NX-Activity-Log/export.json. Этот файл будет перезаписан, если он уже существует.",
+            "exportSuccessful": "Данные воспроизведения успешно экспортированы.",
+            "import": "Импортировать данные воспроизведения из JSON",
+            "importing": "Импорт данных...",
+            "importHint": "Импортировать данные воспроизведения из JSON в /switch/NX-Activity-Log/import.json в NX-Activity-Log, перезаписав все ранее импортированные данные. Данные будут связаны с совпадающими именами пользователей. Для вступления этих изменений в силу необходимо перезапустить приложение.",
+            "importSuccessful": "Данные воспроизведения успешно импортированы.",
+            "heading": "Импорт/Экспорт",
+            "noImportFile": "import.json не найден в требуемом месте."
         },
         "launch": {
             "heading": "Настройки запуска",
@@ -299,8 +299,8 @@
             "viewHint": "Период активности для показа при запуске."
         },
         "other": {
-            "adjust": "Adjust Playtime",
-            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
+            "adjust": "Отрегулируйте время воспроизведения",
+            "adjustHint": "Отрегулируйте время воспроизведения каждого заголовка индивидуально для выбранного пользователя.",
             "heading": "Другие настройки",
             "hide": "Скрыть удалённые игры",
             "hideHint": "Исключить удалённые игры из всей активности.",

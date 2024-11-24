@@ -42,12 +42,12 @@
         "close": "닫기",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
-        "yearSuffix": "",
+        "yearSuffix": "년",
         "dateSuffix": {
-            "nd": "nd",
-            "rd": "rd",
-            "st": "st",
-            "th": "th"
+            "nd": "일",
+            "rd": "일",
+            "st": "일",
+            "th": "일"
         },
         "datePanel": {
             "headingDate": "1일 단위로 보기",

@@ -1,12 +1,12 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "Ajustar tiempo de juego",
         "picker": {
-            "hour": "Hour",
-            "minute": "Minute",
-            "second": "Second"
+            "hour": "Hora",
+            "minute": "Minuto",
+            "second": "Segundo"
         },
-        "save": "Save"
+        "save": "Guardar"
     },
     "allActivity": {
         "sort": {
@@ -32,10 +32,10 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Volver",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "date": "Selecciona fecha",
             "exit": "Salir",
-            "ok": "OK",
+            "ok": "DE ACUERDO",
             "sort": "Ordenar",
             "view": "Cambiar vista"
         },
@@ -102,8 +102,8 @@
                 "dec": "Dic"
             }
         },
-        "off": "Off",
-        "on": "On",
+        "off": "Apagado",
+        "on": "Encendido",
         "no": "No",
         "noActivity": "No se registró actividad de juego durante este período de tiempo.",
         "playedFor" : {
@@ -194,7 +194,7 @@
         "apply": "Aplicar",
         "background": "Fondo de pantalla",
         "picker": {
-            "alpha": "Alpha",
+            "alpha": "Alfa",
             "blue": "Azul",
             "green": "Verde",
             "red": "Rojo",
@@ -246,10 +246,10 @@
         }
     },
     "hideTitles": {
-        "heading": "Choose Titles to Hide",
-        "save": "Save",
-        "titleHidden": "title hidden",
-        "titlesHidden": "titles hidden"
+        "heading": "Elegir títulos para ocultar",
+        "save": "Guardar",
+        "titleHidden": "título oculto",
+        "titlesHidden": "títulos ocultos"
     },
     "recentActivity": {
         "titleHeading": "Títulos jugados"
@@ -273,21 +273,21 @@
             "themeHint": "El tema a utilizar para la aplicación. Automáticamente elige blanco/negro según la configuración de tu Switch. Selecciona Personalizado para establecer una imagen de fondo y ajustar los colores."
         },
         "importExport": {
-            "confirmDelete": "Are you sure you wish to delete all imported data?",
-            "confirmDeleteBody": "This action cannot be undone.",
-            "deleteImport": "Delete Imported Data",
-            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
-            "deleteSuccessful": "Imported data deleted successfully.",
-            "export": "Export Play Data to JSON",
-            "exporting": "Exporting data...",
-            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
-            "exportSuccessful": "Play data exported successfully.",
-            "import": "Import Play Data from JSON",
-            "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
-            "importSuccessful": "Play data imported successfully.",
-            "heading": "Import/Export",
-            "noImportFile": "import.json was not found at the required location."
+            "confirmDelete": "¿Estás seguro de que deseas eliminar todos los datos importados?",
+            "confirmDeleteBody": "Esta acción no se puede deshacer.",
+            "deleteImport": "Eliminar datos importados",
+            "deleteImportHint": "Borrar los datos de reproducción previamente importados. Para que esto tenga efecto, es necesario reiniciar la aplicación.",
+            "deleteSuccessful": "Los datos importados se eliminaron correctamente.",
+            "export": "Exportar datos de reproducción a JSON",
+            "exporting": "Exportando datos...",
+            "exportHint": "Exportar todos los datos de reproducción de los usuarios a un JSON en /switch/NX-Activity-Log/export.json. Este archivo se sobrescribirá si ya existe.",
+            "exportSuccessful": "Los datos de reproducción se exportaron correctamente.",
+            "import": "Importar datos de reproducción desde JSON",
+            "importing": "Importando datos...",
+            "importHint": "Importar datos de reproducción desde el JSON en /switch/NX-Activity-Log/import.json a NX-Activity-Log, sobrescribiendo cualquier dato importado previamente. Los datos se asociarán donde coincidan los nombres de usuario. La aplicación debe reiniciarse para que esto surta efecto.",
+            "importSuccessful": "Los datos de reproducción se importaron correctamente.",
+            "heading": "Importar/Exportar",
+            "noImportFile": "no se encontró import.json en la ubicación requerida"
         },
         "launch": {
             "heading": "Opciones de inicio",
@@ -299,8 +299,8 @@
             "viewHint": "El período de actividad para ver en el inicio."
         },
         "other": {
-            "adjust": "Adjust Playtime",
-            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
+            "adjust": "Ajustar tiempo de reproducción",
+            "adjustHint": "Ajusta el tiempo de reproducción de cada título individualmente para el usuario seleccionado.",
             "heading": "Otras opciones",
             "hide": "Ocultar juegos borrados",
             "hideHint": "Excluye los juegos borrados de 'Toda la actividad'.",
@@ -313,7 +313,7 @@
                 "success": "Instalación correcta!",
                 "successMsg1": "Los siguientes CFWs han sido detectados y tienen habilitada la siguiente característica:",
                 "successMsg2": "Nota: Esta característica no usa un sysmodule, si encuentra algún error, desactive esta función en la aplicación o elimínela",
-                "successMsg3": "<cfw contents folder>/0100000000001013/exefs.nsp"
+                "successMsg3": "<Carpeta de contenidos de CFW>/0100000000001013/exefs.nsp"
             },
             "replaceHint": "Reemplaza la página de usuario con esta aplicación. Requiere LayeredFS y Atmosphere 0.10.0+, ReiNX or SXOS."
         },

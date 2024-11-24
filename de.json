@@ -1,12 +1,12 @@
 {
     "adjustPlaytime": {
-        "heading": "Adjust Playtime",
+        "heading": "Spielzeit anpassen",
         "picker": {
-            "hour": "Hour",
+            "hour": "Stunde",
             "minute": "Minute",
-            "second": "Second"
+            "second": "Sekunde"
         },
-        "save": "Save"
+        "save": "Speichern"
     },
     "allActivity": {
         "sort": {
@@ -58,7 +58,7 @@
             "year": "Jahr"
         },
         "default": "Systemstandard",
-        "delete": "Delete",
+        "delete": "Löschen",
         "disabled": "Deaktiviert",
         "enabled": "Aktiviert",
         "heading": "$[name]s Aktivität",
@@ -246,10 +246,10 @@
         }
     },
     "hideTitles": {
-        "heading": "Choose Titles to Hide",
-        "save": "Save",
-        "titleHidden": "title hidden",
-        "titlesHidden": "titles hidden"
+        "heading": "Titel zum Ausblenden auswählen",
+        "save": "Speichern",
+        "titleHidden": "Titel ausgeblendet",
+        "titlesHidden": "Titel ausgeblendet"
     },
     "recentActivity": {
         "titleHeading": "Gespielte Spiele"
@@ -261,33 +261,33 @@
             "graph": "Diagrammbeschriftungen anzeigen",
             "graphHint": "Schaltet die Beschriftungen der Diagrammleisten um",
             "heading": "Aussehen",
-            "language": "Sprache / language",
+            "language": "Sprache",
             "theme": {
                 "auto": "Automatisch",
                 "custom": "Benutzerdefiniert",
                 "dark": "Schwarz",
-                "heading": "Theme",
+                "heading": "Thema",
                 "light": "Weiß"
             },
             "themeEdit": "App-Theme bearbeiten",
             "themeHint": "Das Design, das für diese App benutzt wird. 'Automatisch' wählt das aktuelle Design deiner Switch aus. Beachte: Die App muss neu gestartet werden, um die Einstellungen zu speichern."
         },
         "importExport": {
-            "confirmDelete": "Are you sure you wish to delete all imported data?",
-            "confirmDeleteBody": "This action cannot be undone.",
-            "deleteImport": "Delete Imported Data",
-            "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
-            "deleteSuccessful": "Imported data deleted successfully.",
-            "export": "Export Play Data to JSON",
-            "exporting": "Exporting data...",
-            "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists.",
-            "exportSuccessful": "Play data exported successfully.",
-            "import": "Import Play Data from JSON",
-            "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
-            "importSuccessful": "Play data imported successfully.",
-            "heading": "Import/Export",
-            "noImportFile": "import.json was not found at the required location."
+            "confirmDelete": "Möchten Sie wirklich alle importierten Daten löschen?",
+            "confirmDeleteBody": "Diese Aktion kann nicht rückgängig gemacht werden.",
+            "deleteImport": "Importierte Daten löschen",
+            "deleteImportHint": "Löschen Sie die zuvor importierten Spieldaten. Damit dies wirksam wird, muss die Anwendung neu gestartet werden.",
+            "deleteSuccessful": "Importierte Daten erfolgreich gelöscht.",
+            "export": "Spieldaten in JSON exportieren",
+            "exporting": "Daten werden exportiert...",
+            "exportHint": "Exportieren Sie alle Spieldaten der Benutzer in ein JSON unter /switch/NX-Activity-Log/export.json. Diese Datei wird überschrieben, falls sie bereits vorhanden ist.",
+            "exportSuccessful": "Spieldaten erfolgreich exportiert.",
+            "import": "Spieldaten aus JSON importieren",
+            "importing": "Daten werden importiert...",
+            "importHint": "Spieldaten aus dem JSON importieren unter /switch/NX-Activity-Log/import.json in NX-Activity-Log, wobei alle zuvor importierten Daten überschrieben werden. Daten werden zugeordnet, wenn Benutzernamen übereinstimmen. Damit dies wirksam wird, muss die Anwendung neu gestartet werden.",
+            "importSuccessful": "Wiedergabedaten erfolgreich importiert.",
+            "heading": "Importieren/Exportieren",
+            "noImportFile": "import.json wurde am erforderlichen Speicherort nicht gefunden."
         },
         "launch": {
             "heading": "Startoptionen",
@@ -299,8 +299,8 @@
             "viewHint": "Der Zeitraum der Aktivtät, die beim Starten der App angezeigt wird"
         },
         "other": {
-            "adjust": "Adjust Playtime",
-            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
+            "adjust": "Spieldauer anpassen",
+            "adjustHint": "Spieldauer jedes Titels individuell für den ausgewählten Benutzer anpassen.",
             "heading": "Sonstige Einstellungen",
             "hide": "Gelöschte Spiele verstecken",
             "hideHint": "Zeigt Spiele, die du von deiner Switch gelöscht hast nicht mehr bei 'Gesamte Aktivitäten' an.",
@@ -313,12 +313,12 @@
                 "success": "Installation erfolgreich!",
                 "successMsg1": "Folgende CFWs wurden erkannt und haben diese Funktion freigeschaltet:",
                 "successMsg2": "Beachte: Diese Funktion benutzt kein sysmodule. Falls du weiterhin Fehlermeldungen bekommst deaktiviere diese Funktion oder lösche sie.",
-                "successMsg3": "<cfw contents folder>/0100000000001013/exefs.nsp"
+                "successMsg3": "<cfw-Inhaltsordner>/0100000000001013/exefs.nsp"
             },
             "replaceHint": "Ersetzt die Profilseite auf dem Switch-Homescreen mit dieser App. Erfordert LayeredFS und entweder Atmosphere 0.10.0+, ReiNX oder SXOS."
         },
         "support": "Unterstütze mich auf Ko-fi:",
-        "translations": "Thank you to the following people for their help in translating the app:",
+        "translations": "Vielen Dank an die folgenden Personen für ihre Hilfe bei der Übersetzung der App:",
         "update": "Nach Updates suchen",
         "updateHint": "Hinweis: Du könntest auf Probleme stoßen, wenn du 90DNS benutzt. Falls dies bei dir der Fall sein sollte, versuche es einfach nochmal."
     },
