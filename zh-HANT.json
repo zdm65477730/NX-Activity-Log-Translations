@@ -6,7 +6,7 @@
             "minute": "分鐘",
             "second": "秒"
         },
-        "save": "保存"
+        "save": "儲存"
     },
     "allActivity": {
         "sort": {
@@ -37,7 +37,7 @@
             "exit": "退出",
             "ok": "確定",
             "sort": "排序",
-            "view": "更改視圖"
+            "view": "更改檢視"
         },
         "close": "關閉",
         "dateFormat": "$[m] $[d]$[s]",
@@ -57,7 +57,7 @@
             "month": "月",
             "year": "年"
         },
-        "default": "系統默認",
+        "default": "系統預設",
         "delete": "刪除",
         "disabled": "關閉",
         "enabled": "開啟",
@@ -65,11 +65,11 @@
         "lastPlayed": {
             "future": "將來玩",
             "secs": "幾秒鐘前剛玩過",
-            "1min": "壹分鐘前玩過",
+            "1min": "一分鐘前玩過",
             "mins": "$[m] 分鐘前玩過",
-            "1hr": "壹小時前玩過",
+            "1hr": "一小時前玩過",
             "hrs": "$[h] 小時前玩過",
-            "1day": "壹天前玩過",
+            "1day": "一天前玩過",
             "days": "$[d] 天前玩過",
             "date": "上次遊戲於 $[m] $[d]$[s]",
             "dateYear": "上次遊戲於 $[y] $[m] $[d]$[s]"
@@ -147,7 +147,7 @@
         "screen": {
             "allActivity": "所有動態",
             "recentActivity": "最近動態",
-            "settings": "設置"
+            "settings": "設定"
         },
         "sort": {
             "firstPlayed": "按首次遊戲時間",
@@ -201,44 +201,44 @@
             "red": "紅色",
             "tip": "提示：按住 ZL/ZR 可以更快的更改數值"
         },
-        "heading": "自定義主題",
-        "highlight1": "高亮動畫1",
-        "highlight2": "高亮動畫2",
-        "highlightBG": "高亮背景",
+        "heading": "自訂主題",
+        "highlight1": "突顯動畫1",
+        "highlight2": "突顯動畫2",
+        "highlightBG": "突顯背景",
         "image": "使用背景圖片",
         "imageError": {
-            "body": "找不到圖像或圖像已損壞。請檢查它是否正確命名或保存，並且放置在sdmc:/config/NX-Activity-Log/background.png",
+            "body": "找不到圖像或圖像已損壞。請檢查它是否正確命名或儲存，並且放置在sdmc:/config/NX-Activity-Log/background.png",
             "heading": "發生錯誤..."
         },
-        "imageHint": "將位於sdmc:/config/NX-Activity-Log/background.png的圖像設置為應用程序的背景。如果圖像分辨率不是 1280x720，它將調整為適合的大小",
+        "imageHint": "將位於sdmc:/config/NX-Activity-Log/background.png的圖像設定為應用程式的背景。如果圖像解析度不是 1280x720，它將調整為適合的大小",
         "line": "行",
         "mutedLine": "暗色線條",
-        "mutedText": "暗淡文本",
-        "preset": "從預設加載",
+        "mutedText": "暗淡文字",
+        "preset": "從預設載入",
         "selected": "已選中",
-        "text": "文本"
+        "text": "文字"
     },
     "details": {
         "allTime": "所有時間的動態",
         "avgPlaytime": "平均遊戲時長",
         "break": {
-            "appClosed": "程序已關閉",
-            "appLaunched": "程序已啟動",
-            "appResumed": "程序已恢復",
-            "appSuspended": "程序已掛起",
-            "heading": "遊戲會話細節",
-            "length": "會話時長",
+            "appClosed": "程式已關閉",
+            "appLaunched": "程式已啟動",
+            "appResumed": "程式已復原",
+            "appSuspended": "程式已掛斷",
+            "heading": "遊戲工作階段細節",
+            "length": "工作階段時長",
             "playtime": "總遊戲時長"
         },
         "firstPlayed": "首次遊戲",
         "lastPlayed": "上次遊戲",
-        "playSessions": "遊戲會話",
+        "playSessions": "遊戲工作階段",
         "playtime": "遊戲時長",
         "popup": {
-            "heading": "遊戲會話表示遊戲從啟動到連續退出之間的時間。",
+            "heading": "遊戲工作階段表示遊戲從啟動到連續退出之間的時間。",
             "msg1": "顯示啟動時間、退出時間、遊戲時間和占遊戲時間的百分比。",
-            "msg2": "選擇會話以查看更詳細的明細數據。",
-            "msg3": "註：帶有星號的會話在所選日期之前開始和/或結束。他們的遊戲時間已經調整，以反映當前的時間範圍，但是他們的明細將顯示整個會話的持續時間。"
+            "msg2": "選擇工作階段以查看更詳細的明細資料。",
+            "msg3": "註：帶有星號的工作階段在所選日期之前開始和/或結束。他們的遊戲時間已經調整，以反映目前的時間範圍，但是他們的明細將顯示整個工作階段的持續時間。"
         },
         "timesPlayed": {
             "heading": "遊戲次數",
@@ -248,7 +248,7 @@
     },
     "hideTitles": {
         "heading": "選擇要隱藏的遊戲",
-        "save": "保存",
+        "save": "儲存",
         "titleHidden": "遊戲隱藏",
         "titlesHidden": "隱藏的遊戲"
     },
@@ -256,72 +256,72 @@
         "titleHeading": "遊玩的遊戲"
     },
     "settings": {
-        "about": "感謝使用我的軟件，希望您能用得上它！",
+        "about": "感謝使用我的軟體，希望您能用得上它！",
         "appearance": {
             "24H": "使用 24 小時制",
             "graph": "顯示圖形值",
-            "graphHint": "切換是否在圖裏每個條的上方顯示數值",
+            "graphHint": "切換是否在圖裡每個條的上方顯示數值",
             "heading": "外觀",
             "language": "語言",
             "theme": {
                 "auto": "自動",
-                "custom": "自定義",
+                "custom": "自訂",
                 "dark": "經典黑",
                 "heading": "主題",
                 "light": "經典白"
             },
-            "themeEdit": "自定義主題",
-            "themeHint": "用於應用程序的主題。自動根據您的NS的設置選擇暗色系或者亮色系主題。選擇自定義可以設置背景圖像並調整顏色。"
+            "themeEdit": "自訂主題",
+            "themeHint": "用於應用程式的主題。自動根據您的NS的設定選擇暗色系或者亮色系主題。選擇自訂可以設定背景圖像並調整顏色。"
         },
         "importExport": {
-            "confirmDelete": "您確定要刪除所有導入的數據嗎？",
-            "confirmDeleteBody": "此操作無法撤消。",
-            "deleteImport": "刪除導入的數據",
-            "deleteImportHint": "刪除之前導入的遊玩數據。必須重新啟動應用程序才能使其生效。",
-            "deleteSuccessful": "已成功刪除導入的數據。",
-            "export": "將遊玩數據導出為JSON文件",
-            "exporting": "正在導出數據...",
-            "exportHint": "將所有用戶的遊玩數據導出到JSON文件：sdmc:/switch/NX-Activity-Log/export.json。如果該文件已經存在，它將被覆蓋。",
-            "exportSuccessful": "遊玩數據導出成功。",
-            "import": "從JSON文件導入遊玩數據",
-            "importing": "正在導入數據...",
-            "importHint": "從JSON文件：sdmc:/switch/NX-Activity-Log/import.json中導入遊玩數據到NX-Activity-Log中，並覆蓋之前導入的任何數據。數據將被關聯到匹配的用戶名。必須重新啟動應用程序才能使其生效。",
-            "importSuccessful": "遊玩數據導入成功。",
-            "heading": "導入和導出",
+            "confirmDelete": "您確定要刪除所有匯入的資料嗎？",
+            "confirmDeleteBody": "此操作無法復原。",
+            "deleteImport": "刪除匯入的資料",
+            "deleteImportHint": "刪除之前匯入的遊玩資料。必須重新啟動應用程式才能使其生效。",
+            "deleteSuccessful": "已成功刪除匯入的資料。",
+            "export": "將遊玩資料匯出為JSON文件",
+            "exporting": "正在匯出資料...",
+            "exportHint": "將所有用戶的遊玩資料匯出到JSON文件：sdmc:/switch/NX-Activity-Log/export.json。如果該文件已經存在，它將被覆蓋。",
+            "exportSuccessful": "遊玩資料匯出成功。",
+            "import": "從JSON文件匯入遊玩資料",
+            "importing": "正在匯入資料...",
+            "importHint": "從JSON文件：sdmc:/switch/NX-Activity-Log/import.json中匯入遊玩資料到NX-Activity-Log中，並覆蓋之前匯入的任何資料。資料將被關聯到匹配的用戶名。必須重新啟動應用程式才能使其生效。",
+            "importSuccessful": "遊玩資料匯入成功。",
+            "heading": "匯入和匯出",
             "noImportFile": "在所指定的位置找不到import.json文件。"
         },
         "launch": {
             "heading": "啟動選項",
-            "screen": "默認屏幕",
-            "screenHint": "啟動時或選擇用戶後顯示的屏幕",
-            "sort": "默認排序方式",
+            "screen": "預設螢幕",
+            "screenHint": "啟動時或選擇用戶後顯示的螢幕",
+            "sort": "預設排序方式",
             "sortHint": "在啟動時使用的“所有動態”的排序方法。",
-            "view": "默認顯示類型",
+            "view": "預設顯示類型",
             "viewHint": "在啟動時查看的動態期間。"
         },
         "other": {
             "adjust": "調整遊戲時間",
             "adjustHint": "為所選用戶單獨調整每個遊戲的遊戲時間。",
-            "heading": "其他設置",
+            "heading": "其他設定",
             "hide": "隱藏遊戲",
             "hideHint": "在NX-Activity-Log中選擇要隱藏的遊戲。",
-            "replace": "替換用戶頁",
+            "replace": "取代用戶頁",
             "replaceBox": {
                 "error": "發生錯誤：",
-                "errorMsg1": "在預期的位置沒有找到此應用程序的.nro文件：",
+                "errorMsg1": "在預期的位置沒有找到此應用程式的.nro文件：",
                 "errorMsg2": "此功能要求.nro文件存在於此位置。",
-                "errorMsg3": "請移動或重命名任意文件和文件夾，然後重試。",
+                "errorMsg3": "請移動或重新命名任意文件和資料夾，然後重試。",
                 "success": "安裝成功！",
-                "successMsg1": "檢測到以下自制系統並啟用了此功能：",
-                "successMsg2": "註意：此功能不使用任何系統模塊，如果您遇到任何錯誤，請在應用中禁用此功能或刪除",
-                "successMsg3": "sdmc:/<自制系統文件夾>/0100000000001013/exefs.nsp"
+                "successMsg1": "檢測到以下自製系統並啟用了此功能：",
+                "successMsg2": "注意：此功能不使用任何系統模組，如果您遇到任何錯誤，請在應用中停用此功能或刪除",
+                "successMsg3": "sdmc:/<自製系統資料夾>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "用這個應用程序替換用戶頁。需要LayeredFS支持以及自制系統Atmosphere 0.10.0+、ReiNX或SXOS。"
+            "replaceHint": "用這個應用程式取代用戶頁。需要LayeredFS支援以及自製系統Atmosphere 0.10.0+、ReiNX或SXOS。"
         },
-        "support": "妳可以在Ko-fi網站上支持我：",
-        "translations": "感謝以下人員在翻譯應用程序時提供的幫助：",
+        "support": "你可以在Ko-fi網站上支持我：",
+        "translations": "感謝以下人員在翻譯應用程式時提供的幫助：",
         "update": "檢查更新",
-        "updateHint": "註意：如果您使用90DNS，您可能會遇到問題。如果是這種情況，只需再試壹次。"
+        "updateHint": "注意：如果您使用90DNS，您可能會遇到問題。如果是這種情況，只需再試一次。"
     },
     "update": {
         "cancel": "取消",
@@ -329,17 +329,17 @@
             "dl": "下載中...",
             "error": "無法下載文件",
             "success": "更新已下載！",
-            "successHint": "本應用程序即將更新並關閉。",
-            "successHintPage": "本應用程序即將更新並重新啟動。"
+            "successHint": "本應用程式即將更新並關閉。",
+            "successHintPage": "本應用程式即將更新並重新啟動。"
         },
         "error": {
             "heading": "無法檢查更新！",
-            "tip": "檢查妳的網絡連接或者稍後再次嘗試"
+            "tip": "檢查你的網路連接或者稍後再次嘗試"
         },
         "heading": "更新應用",
         "newAvailable": "版本 $[v] 可用！",
         "update": "更新",
-        "upToDate": "您的應用程序是最新的！",
+        "upToDate": "您的應用程式是最新的！",
         "version": "版本 $[v]",
         "waiting": "正在檢查GitHub以獲取更新..."
     },
