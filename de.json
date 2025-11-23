@@ -61,7 +61,7 @@
         "delete": "Löschen",
         "disabled": "Deaktiviert",
         "enabled": "Aktiviert",
-        "heading": "$[name]s Aktivität",
+        "heading": "$[name]'s Aktivität",
         "lastPlayed": {
             "future": "In der Zukunft gespielt",
             "secs": "Zuletzt gespielt vor wenigen Sekunden",
@@ -105,7 +105,8 @@
         "off": "Aus",
         "on": "An",
         "no": "Nein",
-        "noActivity": "Keine Spielaktivität für den gewählten Zeitraum aufgezeichnet.",
+        "noActivity": "Für diesen Zeitraum wurde keine Spielaktivität aufgezeichnet.",
+        "loading": "Wird geladen...",
         "playedFor" : {
             "0min": "Wenige Sekunden gespielt",
             "1min": "1 Minute gespielt",

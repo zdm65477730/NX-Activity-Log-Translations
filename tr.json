@@ -61,7 +61,7 @@
         "delete": "Delete",
         "disabled": "Devredışı",
         "enabled": "Etkin",
-        "heading": "$[name] Aktivitesi",
+        "heading": "$[name] Etkinliği",
         "lastPlayed": {
             "future": "Gelecekte oynandı",
             "secs": "En son saniye önce oynandı",
@@ -102,10 +102,11 @@
                 "dec": "Ara"
             }
         },
-        "off": "Kapat",
-        "on": "Aç",
+        "off": "Kapalı",
+        "on": "Açık",
         "no": "Hayır",
-        "noActivity": "Bu süre boyunca hiçbir oyun etkinliği kaydedilmedi.",
+        "noActivity": "Bu süre zarfında oyun aktivitesi kaydedilmedi.",
+        "loading": "Yükleniyor...",
         "playedFor" : {
             "0min": "Bir dakikadan az oynandı",
             "1min": "1 dakika oynandı",

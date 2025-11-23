@@ -106,6 +106,7 @@
         "on": "On",
         "no": "No",
         "noActivity": "No play activity was recorded for this period of time.",
+        "loading": "Loading...",
         "playedFor" : {
             "0min": "Played for less than a minute",
             "1min": "Played for 1 minute",

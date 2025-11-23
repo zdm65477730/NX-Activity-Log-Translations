@@ -61,7 +61,7 @@
         "delete": "Eliminare",
         "disabled": "Disabilitato",
         "enabled": "Abilitato",
-        "heading": "Pagina di $[name]",
+        "heading": "Attività di $[name]",
         "lastPlayed": {
             "future": "Giocato nel futuro",
             "secs": "Giocato secondi fa",
@@ -102,10 +102,11 @@
                 "dec": "Dic"
             }
         },
-        "off": "No",
-        "on": "Sì",
+        "off": "Disattivato",
+        "on": "Attivato",
         "no": "No",
-        "noActivity": "Nessuna attività di gioco è stata registrata per questo periodo di tempo.",
+        "noActivity": "Nessuna attività di gioco è stata registrata per questo periodo.",
+        "loading": "Caricamento...",
         "playedFor" : {
             "0min": "Giocato per meno di 1 minuto",
             "1min": "Giocato per 1 minuto",
