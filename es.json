@@ -105,8 +105,7 @@
         "off": "Apagado",
         "on": "Encendido",
         "no": "No",
-        "noActivity": "No se registró ninguna actividad de juego durante este período.",
-        "loading": "Cargando...",
+        "noActivity": "No se registró actividad de juego durante este período de tiempo.",
         "playedFor" : {
             "0min": "Jugado menos de un minuto",
             "1min": "Jugado 1 minuto",

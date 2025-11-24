@@ -103,10 +103,9 @@
             }
         },
         "off": "Désactivé",
-        "on": "Activé",
+        "on": "Sur",
         "no": "Non",
-        "noActivity": "Aucune activité de jeu n'a été enregistrée pour cette période.",
-        "loading": "Chargement...",
+        "noActivity": "Pas d'activité de jeu enregistrée pendant cette période.",
         "playedFor" : {
             "0min": "Joué moins d'une minute",
             "1min": "Joué 1 minute",
