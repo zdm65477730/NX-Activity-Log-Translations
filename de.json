@@ -29,12 +29,12 @@
         },
         "AM": "AM",
         "am": "am",
-        "atmosphere": "Atmosphere",
+        "atmosphere": "Atmosphäre",
         "buttonHint": {
             "back": "Zurück",
-            "cancel": "Cancel",
+            "cancel": "Abbrechen",
             "date": "Datum auswählen",
-            "exit": "Verlassen",
+            "exit": "Beenden",
             "ok": "OK",
             "sort": "Sortieren",
             "view": "Ansicht ändern"
@@ -44,15 +44,15 @@
         "dateFormatYear": "$[d]. $[m] $[y]",
         "yearSuffix": "",
         "dateSuffix": {
-            "nd": "",
-            "rd": "",
-            "st": "",
-            "th": ""
+            "nd": ".",
+            "rd": ".",
+            "st": ".",
+            "th": "."
         },
         "datePanel": {
-            "headingDate": "Tag ansehen",
-            "headingMonth": "Monat ansehen",
-            "headingYear": "Jahr ansehen",
+            "headingDate": "Datum anzeigen",
+            "headingMonth": "Monat anzeigen",
+            "headingYear": "Jahr anzeigen",
             "day": "Tag",
             "month": "Monat",
             "year": "Jahr"
@@ -61,18 +61,28 @@
         "delete": "Löschen",
         "disabled": "Deaktiviert",
         "enabled": "Aktiviert",
-        "heading": "$[name]s Aktivität",
+        "heading": "$[name]'s Aktivität",
         "lastPlayed": {
             "future": "In der Zukunft gespielt",
-            "secs": "Zuletzt gespielt vor wenigen Sekunden",
-            "1min": "Zuletzt gespielt vor 1 Minute",
-            "mins": "Zuletzt gespielt vor $[m] Minuten",
-            "1hr": "Zuletzt gespielt vor 1 Stunde",
-            "hrs": "Zuletzt gespielt vor $[h] Stunden",
-            "1day": "Zuletzt gespielt vor 1 Tag",
-            "days": "Zuletzt gespielt vor $[d] Tagen",
+            "secs": "Zuletzt vor Sekunden gespielt",
+            "1min": "Zuletzt vor 1 Minute gespielt",
+            "mins": "Zuletzt vor $[m] Minuten gespielt",
+            "1hr": "Zuletzt vor 1 Stunde gespielt",
+            "hrs": "Zuletzt vor $[h] Stunden gespielt",
+            "1day": "Zuletzt vor 1 Tag gespielt",
+            "days": "Zuletzt vor $[d] Tagen gespielt",
             "date": "Zuletzt gespielt am $[d]. $[m]",
             "dateYear": "Zuletzt gespielt am $[d]. $[m] $[y]"
+        },
+        "loading": {
+            "title": "Laden...",
+            "done": "Laden abgeschlossen!",
+            "failed": "Laden fehlgeschlagen!",
+            "finish": "Fertigstellen...",
+            "init": "Initialisieren...",
+            "mergeData": "Daten zusammenführen...",
+            "readImport": "Importierte Daten lesen...",
+            "readPDM": "PDM-Daten lesen..."
         },
         "month": {
             "jan": "Januar",
@@ -105,21 +115,21 @@
         "off": "Aus",
         "on": "An",
         "no": "Nein",
-        "noActivity": "Keine Spielaktivität für den gewählten Zeitraum aufgezeichnet.",
+        "noActivity": "Für diesen Zeitraum wurde keine Spielaktivität aufgezeichnet.",
         "playedFor" : {
-            "0min": "Wenige Sekunden gespielt",
-            "1min": "1 Minute gespielt",
-            "mins": "$[m] Minuten gespielt",
-            "mins1sec": "$[m] Minuten und 1 Sekunde gespielt",
-            "1min1sec": "1 Minute und 1 Sekunde gespielt",
-            "1minSecs": "1 Minute und $[s] Sekunden gespielt",
-            "minsSecs": "$[m] Minuten und $[s] Sekunden gespielt",
-            "1hr": "1 Stunde gespielt",
-            "hrs": "$[h] Stunden gespielt",
-            "hrs1min": "$[h] Stunden und 1 Minute gespielt",
-            "1hr1min": "1 Stunde und 1 Minute gespielt",
-            "1hrMins": "1 Stunde und $[m] MInuten gespielt",
-            "hrsMins": "$[h] Stunden und $[m] Minuten gespielt"
+            "0min": "Gespielt für weniger als eine Minute",
+            "1min": "Gespielt für 1 Minute",
+            "mins": "Gespielt für $[m] Minuten",
+            "mins1sec": "Gespielt für $[m] Minuten und 1 Sekunde",
+            "1min1sec": "Gespielt für 1 Minute und 1 Sekunde",
+            "1minSecs": "Gespielt für 1 Minute und $[s] Sekunden",
+            "minsSecs": "Gespielt für $[m] Minuten und $[s] Sekunden",
+            "1hr": "Gespielt für 1 Stunde",
+            "hrs": "Gespielt für $[h] Stunden",
+            "hrs1min": "Gespielt für $[h] Stunden und 1 Minute",
+            "1hr1min": "Gespielt für 1 Stunde und 1 Minute",
+            "1hrMins": "Gespielt für 1 Stunde und $[m] Minuten",
+            "hrsMins": "Gespielt für $[h] Stunden und $[m] Minuten"
         },
         "playtime": {
             "0sec": "0 Sekunden",
@@ -135,7 +145,7 @@
             "hrs": "$[h] Stunden",
             "hrs1min": "$[h] Stunden und 1 Minute",
             "1hr1min": "1 Stunde und 1 Minute",
-            "1hrMins": "1 Stunde und $[m] Minute",
+            "1hrMins": "1 Stunde und $[m] Minuten",
             "hrsMins": "$[h] Stunden und $[m] Minuten"
         },
         "playtimeHours": "Spielzeit (in Stunden)",
@@ -145,18 +155,18 @@
         "reinx": "ReiNX",
         "screen": {
             "allActivity": "Alle Aktivitäten",
-            "recentActivity": "Neueste Aktivitäten",
+            "recentActivity": "Letzte Aktivitäten",
             "settings": "Einstellungen"
         },
         "sort": {
-            "firstPlayed": "Zuerst gespielt",
-            "heading": "Sortieren nach",
-            "leastLaunched": "Am seltensten aufgerufen",
-            "leastPlaytime": "Spielzeit aufsteigend",
-            "mostLaunched": "Am meisten aufgerufen",
-            "mostPlaytime": "Spielzeit absteigend",
-            "name": "Name",
-            "recentlyPlayed": "Zuletzt gespielt"
+            "firstPlayed": "Nach erstem Spielen",
+            "heading": "Titel sortieren",
+            "leastLaunched": "Nach seltenstem Aufruf",
+            "leastPlaytime": "Nach kürzester Spielzeit",
+            "mostLaunched": "Nach häufigstem Aufruf",
+            "mostPlaytime": "Nach längster Spielzeit",
+            "name": "Nach Name",
+            "recentlyPlayed": "Nach zuletzt gespielt"
         },
         "sxos": "SX OS",
         "timesPlayed": {
@@ -189,160 +199,160 @@
         "yes": "Ja"
     },
     "customTheme": {
-        "accent": "Farbakzent",
-        "altBackground": "Hintergrundfarbe der Fenster",
+        "accent": "Akzent",
+        "altBackground": "Hintergrund Panel",
         "apply": "Anwenden",
-        "background": "Hintergrundfarbe der App",
+        "background": "Hintergrund",
         "picker": {
-            "alpha": "Transparenz",
+            "alpha": "Alpha",
             "blue": "Blau",
             "green": "Grün",
             "red": "Rot",
-            "tip": "Tipp: Halte ZL/ZR um Werte schneller zu ändern!"
+            "tip": "Tipp: Halte ZL/ZR gedrückt, um Werte schneller zu ändern!"
         },
-        "heading": "Theme ändern",
-        "highlight1": "Animation ausgewählter Zeile 1",
-        "highlight2": "Animation ausgewählter Zeile 2",
-        "highlightBG": "Hintergrund ausgewählter Zeile",
+        "heading": "Design anpassen",
+        "highlight1": "Hervorhebungsanimation 1",
+        "highlight2": "Hervorhebungsanimation 2",
+        "highlightBG": "Hervorhebungshintergrund",
         "image": "Hintergrundbild benutzen",
         "imageError": {
-            "body": "Das Bild konnte nicht gefunden werden oder ist fehlerhaft. Bitte prüfe, ob es den korrekten Dateinamen hat und im Verzeichnis /config/NX-Activity-Log/background.png gespeichert ist",
+            "body": "Das Bild konnte nicht gefunden werden oder ist beschädigt. Bitte überprüfe, ob es richtig benannt/gespeichert und unter /config/NX-Activity-Log/background.png abgelegt ist",
             "heading": "Ein Fehler ist aufgetreten..."
         },
-        "imageHint": "Das Bild im Verzeichnis /config/NX-Activity-Log/background.png als Hintergrund der App verwenden. Wenn das Bild nicht die Auflösung von 1280x720 hat, wird es auf diese Größe angepasst.",
-        "line": "Trennlinien am Bildschirmrand",
-        "mutedLine": "Trennlinien zwischen Zeilen",
-        "mutedText": "Textfarbe 1",
-        "preset": "Von Voreinstellung laden",
-        "selected": "Ausgewählte Zeile",
-        "text": "Textfarbe 2"
+        "imageHint": "Lege das Bild unter /config/NX-Activity-Log/background.png als Hintergrund der Anwendung fest. Wenn das Bild nicht 1280x720 ist, wird es angepasst.",
+        "line": "Linie",
+        "mutedLine": "Gedimmte Linie",
+        "mutedText": "Gedimmter Text",
+        "preset": "Aus Voreinstellung laden",
+        "selected": "Ausgewählt",
+        "text": "Text"
     },
     "details": {
         "allTime": "Gesamte Aktivität",
         "avgPlaytime": "Durchschnittliche Spielzeit",
         "break": {
-            "appClosed": "Anwendung beendet",
+            "appClosed": "Anwendung geschlossen",
             "appLaunched": "Anwendung gestartet",
             "appResumed": "Anwendung fortgesetzt",
-            "appSuspended": "Anwendung pausiert",
-            "heading": "Details zur Spielsitzung",
-            "length": "Länge der Spielsitzung",
+            "appSuspended": "Anwendung angehalten",
+            "heading": "Spielsitzung Details",
+            "length": "Sitzungsdauer",
             "playtime": "Gesamte Spielzeit"
         },
-        "firstPlayed": "Zuerst gespielt",
+        "firstPlayed": "Erstmals gespielt",
         "lastPlayed": "Zuletzt gespielt",
-        "playSessions": "Spielsitzung",
+        "playSessions": "Spielsitzungen",
         "playtime": "Spielzeit",
         "popup": {
-            "heading": "Eine Spielsitzung zeigt die Zeit zwischen dem Öffnen und dem Schließen eines Spiels in einer Sitzung.",
-            "msg1": "Die Zeit des Öffnens, Schließens, die Spielzeit und der prozentuale Anteil der Spielzeit wird angezeigt.",
-            "msg2": "Eine Spielsitzung auswählen, um mehr Details zu sehen",
-            "msg3": "Beachte: Sitzungen, die mit einem Sternchen markiert sind, beginnen vor/nach dem ausgewählten Datum. Ihre Spielzeit wurde angepasst, um den ausgewählten Zeitraum darszustellen. Es wird jedoch die gesamte Dauer der Sitzung angezeigt."
+            "heading": "Eine Spielsitzung repräsentiert die Zeit zwischen dem Start und dem Beenden eines Spiels.",
+            "msg1": "Die Startzeit, Beendigungszeit, Spielzeit und der Prozentsatz der Gesamtspielzeit werden angezeigt.",
+            "msg2": "Wähle eine Sitzung aus, um eine detailliertere Aufschlüsselung anzuzeigen.",
+            "msg3": "Hinweis: Sitzungen mit einem Sternchen beginnen vor und/oder enden nach dem ausgewählten Datum. Ihre Spielzeit wurde angepasst, um den aktuellen Zeitraum widerzuspiegeln, jedoch zeigt ihre Aufschlüsselung die volle Dauer der Sitzung an."
         },
         "timesPlayed": {
-            "heading": "Anzahl der Spielsitzungen",
+            "heading": "Anzahl gespielt",
             "multiple": "$[t] mal",
             "once": "1 mal"
         }
     },
     "hideTitles": {
-        "heading": "Titel zum Ausblenden auswählen",
+        "heading": "Titel zum Verstecken auswählen",
         "save": "Speichern",
-        "titleHidden": "Titel ausgeblendet",
-        "titlesHidden": "Titel ausgeblendet"
+        "titleHidden": "Titel versteckt",
+        "titlesHidden": "Titel versteckt"
     },
     "recentActivity": {
-        "titleHeading": "Gespielte Spiele"
+        "titleHeading": "Gespielte Titel"
     },
     "settings": {
-        "about": "Danke, dass du meine App benutzt. Ich hoffe, ich konnte dir helfen :)",
+        "about": "Danke, dass du meine App benutzt! Ich hoffe sie ist nützlich! :)",
         "appearance": {
-            "24H": "24-Stunden Format benutzen",
-            "graph": "Diagrammbeschriftungen anzeigen",
-            "graphHint": "Schaltet die Beschriftungen der Diagrammleisten um",
+            "24H": "24-Stunden-Zeit verwenden",
+            "graph": "Diagrammwerte anzeigen",
+            "graphHint": "Legt fest, ob Werte über den Balken in Diagrammen sichtbar sind.",
             "heading": "Aussehen",
             "language": "Sprache",
             "theme": {
                 "auto": "Automatisch",
                 "custom": "Benutzerdefiniert",
-                "dark": "Schwarz",
-                "heading": "Thema",
-                "light": "Weiß"
+                "dark": "Einfach Schwarz",
+                "heading": "Design",
+                "light": "Einfach Weiß"
             },
-            "themeEdit": "App-Theme bearbeiten",
-            "themeHint": "Das Design, das für diese App benutzt wird. 'Automatisch' wählt das aktuelle Design deiner Switch aus. Beachte: Die App muss neu gestartet werden, um die Einstellungen zu speichern."
+            "themeEdit": "Design anpassen",
+            "themeHint": "Das für die Anwendung zu verwendende Design. Automatisch wählt schwarz/weiß basierend auf deinen Switch-Einstellungen. Wähle Benutzerdefiniert, um ein Hintergrundbild festzulegen und Farben anzupassen."
         },
         "importExport": {
-            "confirmDelete": "Möchten Sie wirklich alle importierten Daten löschen?",
+            "confirmDelete": "Bist du sicher, dass du alle importierten Daten löschen möchtest?",
             "confirmDeleteBody": "Diese Aktion kann nicht rückgängig gemacht werden.",
             "deleteImport": "Importierte Daten löschen",
-            "deleteImportHint": "Löschen Sie die zuvor importierten Spieldaten. Damit dies wirksam wird, muss die Anwendung neu gestartet werden.",
+            "deleteImportHint": "Lösche die zuvor importierten Spieldaten. Die Anwendung muss neu gestartet werden, damit dies wirksam wird.",
             "deleteSuccessful": "Importierte Daten erfolgreich gelöscht.",
-            "export": "Spieldaten in JSON exportieren",
+            "export": "Spieldaten als JSON exportieren",
             "exporting": "Daten werden exportiert...",
-            "exportHint": "Exportieren Sie alle Spieldaten der Benutzer in ein JSON unter /switch/NX-Activity-Log/export.json. Diese Datei wird überschrieben, falls sie bereits vorhanden ist.",
+            "exportHint": "Exportiere alle Benutzer-Spieldaten in eine JSON unter /switch/NX-Activity-Log/export.json. Diese Datei wird überschrieben, falls sie bereits existiert.",
             "exportSuccessful": "Spieldaten erfolgreich exportiert.",
             "import": "Spieldaten aus JSON importieren",
             "importing": "Daten werden importiert...",
-            "importHint": "Spieldaten aus dem JSON importieren unter /switch/NX-Activity-Log/import.json in NX-Activity-Log, wobei alle zuvor importierten Daten überschrieben werden. Daten werden zugeordnet, wenn Benutzernamen übereinstimmen. Damit dies wirksam wird, muss die Anwendung neu gestartet werden.",
-            "importSuccessful": "Wiedergabedaten erfolgreich importiert.",
-            "heading": "Importieren/Exportieren",
-            "noImportFile": "import.json wurde am erforderlichen Speicherort nicht gefunden."
+            "importHint": "Importiere Spieldaten aus der JSON unter /switch/NX-Activity-Log/import.json in NX-Activity-Log, wodurch zuvor importierte Daten überschrieben werden. Daten werden zugeordnet, wo Benutzernamen übereinstimmen. Die Anwendung muss neu gestartet werden, damit dies wirksam wird.",
+            "importSuccessful": "Spieldaten erfolgreich importiert.",
+            "heading": "Import/Export",
+            "noImportFile": "import.json wurde am erforderlichen Ort nicht gefunden."
         },
         "launch": {
             "heading": "Startoptionen",
-            "screen": "Standardfenster",
-            "screenHint": "Das Fenster, das angezeigt wird, wenn die App gestartet oder ein Nutzer ausgewählt wird",
-            "sort": "Standardsortierung",
-            "sortHint": "Sortierung für den Reiter 'Gesamte Aktivität' beim Starten der App",
-            "view": "Standardansicht",
-            "viewHint": "Der Zeitraum der Aktivtät, die beim Starten der App angezeigt wird"
+            "screen": "Standardbildschirm",
+            "screenHint": "Der beim Start/nach Auswahl eines Benutzers anzuzeigende Bildschirm.",
+            "sort": "Standardsortiermethode",
+            "sortHint": "Die für 'Alle Aktivitäten' beim Start zu verwendende Sortiermethode.",
+            "view": "Standardansichtstyp",
+            "viewHint": "Der beim Start anzuzeigende Aktivitätszeitraum."
         },
         "other": {
-            "adjust": "Spieldauer anpassen",
-            "adjustHint": "Spieldauer jedes Titels individuell für den ausgewählten Benutzer anpassen.",
-            "heading": "Sonstige Einstellungen",
-            "hide": "Gelöschte Spiele verstecken",
-            "hideHint": "Zeigt Spiele, die du von deiner Switch gelöscht hast nicht mehr bei 'Gesamte Aktivitäten' an.",
-            "replace": "Profilseite ersetzen",
+            "adjust": "Spielzeit anpassen",
+            "adjustHint": "Passe die Spielzeit jedes Titels individuell für den ausgewählten Benutzer an.",
+            "heading": "Andere Optionen",
+            "hide": "Titel verstecken",
+            "hideHint": "Wähle Titel, die innerhalb von NX-Activity-Log versteckt werden sollen.",
+            "replace": "Benutzerseite ersetzen",
             "replaceBox": {
                 "error": "Ein Fehler ist aufgetreten:",
-                "errorMsg1": "Die .nro-Datei dieser Anwendung muss, um diese Funktion freizuschalten am folgenden Dateipfad sein:",
-                "errorMsg2": "Dort wurde sie auf deinem System nicht gefunden.",
-                "errorMsg3": "Bitte verschiebe Dateien und Ordner oder benenne sie um. Versuche es danach noch einmal!",
+                "errorMsg1": "Die .nro dieser Anwendung wurde nicht am erwarteten Ort gefunden:",
+                "errorMsg2": "Diese Funktion benötigt die .nro an diesem Ort.",
+                "errorMsg3": "Bitte verschiebe/benenne alle Dateien + Ordner um und versuche es erneut.",
                 "success": "Installation erfolgreich!",
-                "successMsg1": "Folgende CFWs wurden erkannt und haben diese Funktion freigeschaltet:",
-                "successMsg2": "Beachte: Diese Funktion benutzt kein sysmodule. Falls du weiterhin Fehlermeldungen bekommst deaktiviere diese Funktion oder lösche sie.",
+                "successMsg1": "Die folgenden CFWs wurden erkannt und haben diese Funktion aktiviert:",
+                "successMsg2": "Hinweis: Diese Funktion verwendet kein Sysmodule. Falls du Fehler feststellst, deaktiviere diese Funktion in der App oder lösche",
                 "successMsg3": "<cfw-Inhaltsordner>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "Ersetzt die Profilseite auf dem Switch-Homescreen mit dieser App. Erfordert LayeredFS und entweder Atmosphere 0.10.0+, ReiNX oder SXOS."
+            "replaceHint": "Ersetze die Benutzerseite mit dieser App. Benötigt LayeredFS und entweder Atmosphäre 0.10.0+, ReiNX oder SXOS."
         },
-        "support": "Unterstütze mich auf Ko-fi:",
-        "translations": "Vielen Dank an die folgenden Personen für ihre Hilfe bei der Übersetzung der App:",
-        "update": "Nach Updates suchen",
-        "updateHint": "Hinweis: Du könntest auf Probleme stoßen, wenn du 90DNS benutzt. Falls dies bei dir der Fall sein sollte, versuche es einfach nochmal."
+        "support": "Du kannst mich auf Ko-fi unterstützen:",
+        "translations": "Danke an die folgenden Personen für ihre Hilfe beim Übersetzen der App:",
+        "update": "Auf Updates prüfen",
+        "updateHint": "Hinweis: Möglicherweise treten Probleme auf, wenn du 90DNS verwendest. In diesem Fall versuche es einfach erneut."
     },
     "update": {
         "cancel": "Abbrechen",
         "download": {
-            "dl": "Herunterladen...",
-            "error": "Konnte Datei nicht herunterladen! :(",
-            "success": "Aktualisierung heruntergeladen!",
-            "successHint": "Die App wird sich jetzt aktualisieren und schließen.",
-            "successHintPage": "Die App wird sich jetzt aktualisieren und neu starten."
+            "dl": "Wird heruntergeladen...",
+            "error": "Datei kann nicht heruntergeladen werden",
+            "success": "Update heruntergeladen!",
+            "successHint": "Die App wird jetzt aktualisiert und geschlossen.",
+            "successHintPage": "Die App wird jetzt aktualisiert und neu gestartet."
         },
         "error": {
-            "heading": "Konnte nicht auf Aktualisierungen prüfen! :(",
-            "tip": "Prüfe deine Internetverbindungen und versuche es noch einmal."
+            "heading": "Updateprüfung nicht möglich!",
+            "tip": "Überprüfe deine Internetverbindung und/oder versuche es später erneut."
         },
-        "heading": "App aktualisieren",
+        "heading": "Anwendung aktualisieren",
         "newAvailable": "Version $[v] ist verfügbar!",
-        "update": "Update",
-        "upToDate": "Deine App ist auf der neuesten Version!",
-        "version": "Version: $[v]",
-        "waiting": "Suche bei GitHub nach Updates..."
+        "update": "Aktualisieren",
+        "upToDate": "Deine App ist auf dem neuesten Stand!",
+        "version": "Version $[v]",
+        "waiting": "Prüfe GitHub auf Updates..."
     },
     "userSelect": {
-        "heading": "Nutzer auswählen"
+        "heading": "Benutzer auswählen"
     }
 }

@@ -32,10 +32,10 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "Geri",
-            "cancel": "Cancel",
-            "date": "Tarih Seçin",
+            "cancel": "İptal",
+            "date": "Tarih Seç",
             "exit": "Çıkış",
-            "ok": "TAMAM",
+            "ok": "Tamam",
             "sort": "Sırala",
             "view": "Görünümü Değiştir"
         },
@@ -44,35 +44,45 @@
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
         "yearSuffix": "",
         "dateSuffix": {
-            "nd": "inci",
-            "rd": "inci",
-            "st": "inci",
-            "th": "inci"
+            "nd": "",
+            "rd": "",
+            "st": "",
+            "th": ""
         },
         "datePanel": {
             "headingDate": "Tarihi Görüntüle",
-            "headingMonth": "Ay'ı Görüntüle",
-            "headingYear": "Yıl'ı Görüntüle",
+            "headingMonth": "Ayı Görüntüle",
+            "headingYear": "Yılı Görüntüle",
             "day": "Gün",
             "month": "Ay",
             "year": "Yıl"
         },
         "default": "Sistem Varsayılanı",
-        "delete": "Delete",
-        "disabled": "Devredışı",
+        "delete": "Sil",
+        "disabled": "Devre Dışı",
         "enabled": "Etkin",
-        "heading": "$[name] Aktivitesi",
+        "heading": "$[name] Kullanıcısının Aktivitesi",
         "lastPlayed": {
             "future": "Gelecekte oynandı",
-            "secs": "En son saniye önce oynandı",
-            "1min": "En son 1 dakika önce oynandı",
-            "mins": "En son $[m] dakika önce oynandı",
-            "1hr": "En son 1 saat önce oynandı",
-            "hrs": "En son $[h] saat önce oynandı",
-            "1day": "En son 1 gün önce oynandı",
-            "days": "En son $[d] gün önce oynandı",
-            "date": "En son $ [m] $ [d] $ [s] tarihinde oynandı",
-            "dateYear": "En son $ [m] $ [d] $ [s], $ [y] tarihinde oynandı"
+            "secs": "Son oynatma birkaç saniye önce",
+            "1min": "Son oynatma 1 dakika önce",
+            "mins": "Son oynatma $[m] dakika önce",
+            "1hr": "Son oynatma 1 saat önce",
+            "hrs": "Son oynatma $[h] saat önce",
+            "1day": "Son oynatma 1 gün önce",
+            "days": "Son oynatma $[d] gün önce",
+            "date": "Son oynatma tarihi $[m] $[d]$[s]",
+            "dateYear": "Son oynatma tarihi $[m] $[d]$[s], $[y]"
+        },
+        "loading": {
+            "title": "Yükleniyor...",
+            "done": "Yükleme tamamlandı!",
+            "failed": "Yükleme başarısız oldu!",
+            "finish": "Bitiriliyor...",
+            "init": "Başlatılıyor...",
+            "mergeData": "Veriler birleştiriliyor...",
+            "readImport": "İçe aktarılan veriler okunuyor...",
+            "readPDM": "PDM verileri okunuyor..."
         },
         "month": {
             "jan": "Ocak",
@@ -102,24 +112,24 @@
                 "dec": "Ara"
             }
         },
-        "off": "Kapat",
-        "on": "Aç",
+        "off": "Kapalı",
+        "on": "Açık",
         "no": "Hayır",
-        "noActivity": "Bu süre boyunca hiçbir oyun etkinliği kaydedilmedi.",
+        "noActivity": "Bu zaman dilimi için oynatma aktivitesi kaydedilmedi.",
         "playedFor" : {
             "0min": "Bir dakikadan az oynandı",
-            "1min": "1 dakika oynandı",
+            "1min": "1 dakika boyunca oynandı",
             "mins": "$[m] dakika boyunca oynandı",
-            "mins1sec": "$[m] dakika ve 1 saniye oynandı",
-            "1min1sec": "1 dakika ve 1 saniye oynandı",
-            "1minSecs": "1 dakika ve $[s] saniye oynandı",
-            "minsSecs": "$[m] dakika ve $[s] saniye oynandı",
-            "1hr": "1 saat oynandı",
+            "mins1sec": "$[m] dakika ve 1 saniye boyunca oynandı",
+            "1min1sec": "1 dakika ve 1 saniye boyunca oynandı",
+            "1minSecs": "1 dakika ve $[s] saniye boyunca oynandı",
+            "minsSecs": "$[m] dakika ve $[s] saniye boyunca oynandı",
+            "1hr": "1 saat boyunca oynandı",
             "hrs": "$[h] saat boyunca oynandı",
-            "hrs1min": "$[h] saat ve 1 dakika oynandı",
-            "1hr1min": "1 saat ve 1 dakika oynandı",
-            "1hrMins": "1 saat ve $[m] dakika oynadı",
-            "hrsMins": "$[h] saat ve $[m] dakika oynadı"
+            "hrs1min": "$[h] saat ve 1 dakika boyunca oynandı",
+            "1hr1min": "1 saat ve 1 dakika boyunca oynandı",
+            "1hrMins": "1 saat ve $[m] dakika boyunca oynandı",
+            "hrsMins": "$[h] saat ve $[m] dakika boyunca oynandı"
         },
         "playtime": {
             "0sec": "0 saniye",
@@ -138,8 +148,8 @@
             "1hrMins": "1 saat ve $[m] dakika",
             "hrsMins": "$[h] saat ve $[m] dakika"
         },
-        "playtimeHours": "Oynama süresi (saat cinsinden)",
-        "playtimeMinutes": "Oynama süresi (dakika cinsinden)",
+        "playtimeHours": "Oynatma Süresi (saat cinsinden)",
+        "playtimeMinutes": "Oynatma Süresi (dakika cinsinden)",
         "PM": "PM",
         "pm": "pm",
         "reinx": "ReiNX",
@@ -149,19 +159,19 @@
             "settings": "Ayarlar"
         },
         "sort": {
-            "firstPlayed": "İlk Oynama Süresine Göre",
+            "firstPlayed": "İlk Oynatma Süresine Göre",
             "heading": "Başlıkları Sırala",
-            "leastLaunched": "En Az Oynananlara Göre",
-            "leastPlaytime": "En Az Oynanma Süresine Göre",
-            "mostLaunched": "En Çok Çalıştırılana Göre",
-            "mostPlaytime": "En Çok Oynama Süresine Göre",
+            "leastLaunched": "En Az Başlatılana Göre",
+            "leastPlaytime": "En Az Oynatma Süresine Göre",
+            "mostLaunched": "En Çok Başlatılana Göre",
+            "mostPlaytime": "En Çok Oynatma Süresine Göre",
             "name": "İsme Göre",
-            "recentlyPlayed": "En Son Oynananlara Göre"
+            "recentlyPlayed": "En Son Oynanana Göre"
         },
         "sxos": "SX OS",
         "timesPlayed": {
             "multiple": "$[t] kez oynandı",
-            "once": "1 kere oynandı"
+            "once": "1 kez oynandı"
         },
         "totalPlaytime": {
             "heading": "Toplam Oynatma Süresi:",
@@ -189,7 +199,7 @@
         "yes": "Evet"
     },
     "customTheme": {
-        "accent": "Vurgu",
+        "accent": "Vurgu Rengi",
         "altBackground": "Arka Plan Paneli",
         "apply": "Uygula",
         "background": "Arka Plan",
@@ -198,68 +208,68 @@
             "blue": "Mavi",
             "green": "Yeşil",
             "red": "Kırmızı",
-            "tip": "İpucu: Değerleri daha hızlı değiştirmek için ZL/ZR tuşunu basılı tutun!"
+            "tip": "İpucu: Değerleri daha hızlı değiştirmek için ZL/ZR'yi basılı tutun!"
         },
         "heading": "Temayı Özelleştir",
-        "highlight1": "Animasyonu Vurgula 1",
-        "highlight2": "Animasyonu Vurgula 2",
-        "highlightBG": "Arka Planı Vurgula",
-        "image": "Arka Plan Resmini Kullan",
+        "highlight1": "Vurgu Animasyonu 1",
+        "highlight2": "Vurgu Animasyonu 2",
+        "highlightBG": "Vurgu Arka Planı",
+        "image": "Arka Plan Görseli Kullan",
         "imageError": {
-            "body": "Görüntü bulunamadı veya bozuk. Lütfen doğru bir şekilde adlandırıldığını/kaydedildiğini ve /config/NX-Activity-Log/background.png adresine yerleştirildiğini kontrol edin",
+            "body": "Görsel bulunamadı ya da bozuk. Lütfen doğru şekilde adlandırılıp kaydedildiğinden ve /config/NX-Activity-Log/background.png konumunda olduğundan emin olun",
             "heading": "Bir hata oluştu..."
         },
-        "imageHint": "/config/NX-Activity-Log/background.png konumunda bulunan görüntüyü uygulamanın arka planı olarak ayarlayın. Görüntü 1280x720 değilse sığacak şekilde yeniden boyutlandırılır.",
-        "line": "Hat",
-        "mutedLine": "Dim Hattı",
-        "mutedText": "Dim Yazıyı",
-        "preset": "Ön Ayardan Yükle",
-        "selected": "Seçili",
-        "text": "Yazıyı"
+        "imageHint": "/config/NX-Activity-Log/background.png konumundaki görseli uygulamanın arka planı olarak ayarla. Görsel 1280x720 değilse sığdırmak için yeniden boyutlandırılır.",
+        "line": "Çizgi",
+        "mutedLine": "Soluk Çizgi",
+        "mutedText": "Soluk Metin",
+        "preset": "Ön Ayar'dan Yükle",
+        "selected": "Seçildi",
+        "text": "Metin"
     },
     "details": {
-        "allTime": "Tüm Zaman Etkinliği",
+        "allTime": "Tüm Zamanlarda Aktivite",
         "avgPlaytime": "Ortalama Oynatma Süresi",
         "break": {
-            "appClosed": "Uygulama Kapalı",
-            "appLaunched": "Uygulama Başlatıldığında",
-            "appResumed": "Uygulama Devam Ettirildi",
+            "appClosed": "Uygulama Kapandı",
+            "appLaunched": "Uygulama Başlatıldı",
+            "appResumed": "Uygulama Devam Etti",
             "appSuspended": "Uygulama Askıya Alındı",
-            "heading": "Oturum Ayrıntıları",
-            "length": "Oturum Uzunluğu",
+            "heading": "Oynatma Oturumu Ayrıntıları",
+            "length": "Oturum Süresi",
             "playtime": "Toplam Oynatma Süresi"
         },
-        "firstPlayed": "İlk Oynanma",
-        "lastPlayed": "Son Oynanma",
-        "playSessions": "Oyun Oturumları",
+        "firstPlayed": "İlk Oynatma",
+        "lastPlayed": "Son Oynatma",
+        "playSessions": "Oynatma Oturumları",
         "playtime": "Oynatma Süresi",
         "popup": {
-            "heading": "Oyun Oturumu, bir oyunun piyasaya sürülmesiyle arka arkaya bırakılması arasındaki süreyi temsil eder.",
-            "msg1": "The time of launch, time of exit, playtime and percentage of overall playtime is shown.",
-            "msg2": "Daha ayrıntılı bir döküm görüntülemek için bir oturum seçin.",
-            "msg3": "Not: Yıldız işareti olan oturumlar seçilen tarihten önce başlar ve/veya biter. Oynatma süreleri geçerli zaman aralığını yansıtacak şekilde ayarlanmıştır, ancak dökümü oturumun tam süresini gösterecektir."
+            "heading": "Bir Oynatma Oturumu, bir oyunun başlatıldığından ardışık olarak çıkış yapıldığına kadar geçen süreyi temsil eder.",
+            "msg1": "Başlatma zamanı, çıkış zamanı, oynatma süresi ve toplam oynatma süresinin yüzdesi gösterilir.",
+            "msg2": "Daha ayrıntılı bir dökümü görüntülemek için bir oturum seçin.",
+            "msg3": "Not: Yıldız işaretiyle başlayan oturumlar seçilen tarihten önce başlar ve/veya sonra biter. Oynatma süreleri mevcut zaman aralığını yansıtacak şekilde ayarlanmıştır, ancak döküm tüm oturum süresini gösterecektir."
         },
         "timesPlayed": {
-            "heading": "Oynanan Zamanlar",
-            "multiple": "$[t] kere",
-            "once": "1 kere"
+            "heading": "Oynatma Sayısı",
+            "multiple": "$[t] kez",
+            "once": "1 kez"
         }
     },
     "hideTitles": {
-        "heading": "Gizlenecek Başlıkları Seçin",
+        "heading": "Gizlenecek Başlıkları Seç",
         "save": "Kaydet",
-        "titleHidden": "başlık gizli",
-        "titlesHidden": "başlıklar gizli"
+        "titleHidden": "başlık gizlendi",
+        "titlesHidden": "başlık gizlendi"
     },
     "recentActivity": {
-        "titleHeading": "Oynanan İçerikler"
+        "titleHeading": "Oynatılan Başlıklar"
     },
     "settings": {
         "about": "Uygulamamı kullandığınız için teşekkürler! Umarım faydalı olmuştur! :)",
         "appearance": {
-            "24H": "24 Saat Dilimini Kullan",
+            "24H": "24 Saatlik Zaman Kullan",
             "graph": "Grafik Değerlerini Göster",
-            "graphHint": "Grafiklerdeki her çubuğun üstünde değerlerin görünüp görünmeyeceğini değiştirir.",
+            "graphHint": "Grafiklerde her çubuğun üzerindeki değerlerin görünürlüğünü açar/kapatır.",
             "heading": "Görünüm",
             "language": "Dil",
             "theme": {
@@ -270,79 +280,79 @@
                 "light": "Temel Beyaz"
             },
             "themeEdit": "Temayı Özelleştir",
-            "themeHint": "Uygulama için kullanılacak tema. Otomatik, Switch ayarlarınıza bağlı olarak siyah/beyaz seçer. Bir arka plan görüntüsü ayarlamak ve renkleri ayarlamak için Özel'i seçin."
+            "themeHint": "Uygulama için kullanılacak tema. Otomatik, Switch ayarlarınıza göre siyah/beyaz seçer. Arka plan görseli ayarlamak ve renkleri ayarlamak için Özel'i seçin."
         },
         "importExport": {
-            "confirmDelete": "Tüm içe aktarılan verileri silmek istediğinizden emin misiniz?",
+            "confirmDelete": "İçe aktarılan tüm verileri silmek istediğinizden emin misiniz?",
             "confirmDeleteBody": "Bu işlem geri alınamaz.",
             "deleteImport": "İçe Aktarılan Verileri Sil",
             "deleteImportHint": "Önceden içe aktarılan oynatma verilerini silin. Bunun etkili olması için uygulamanın yeniden başlatılması gerekir.",
             "deleteSuccessful": "İçe aktarılan veriler başarıyla silindi.",
-            "export": "Oynatma Verileri JSON'a Aktar",
+            "export": "Oynatma Verilerini JSON'a Aktar",
             "exporting": "Veriler dışa aktarılıyor...",
-            "exportHint": "Tüm kullanıcıların oynatma verilerini /switch/NX-Activity-Log/export.json konumundaki bir JSON'a aktarın. Zaten mevcutsa bu dosya üzerine yazılacaktır.",
+            "exportHint": "Tüm kullanıcıların oynatma verilerini /switch/NX-Activity-Log/export.json konumundaki bir JSON dosyasına aktarın. Dosya zaten varsa üzerine yazılır.",
             "exportSuccessful": "Oynatma verileri başarıyla dışa aktarıldı.",
-            "import": "Oynatma Verileri JSON'dan İçe Aktar",
+            "import": "Oynatma Verilerini JSON'dan İçe Aktar",
             "importing": "Veriler içe aktarılıyor...",
-            "importHint": "Oynatma verilerini /switch/NX-Activity-Log/import.json konumundaki JSON'dan NX-Activity-Log'a aktarın ve daha önce içe aktarılan verilerin üzerine yazın. Veriler kullanıcı adlarının eşleştiği yerle ilişkilendirilecektir. Bunun etkili olması için uygulamanın yeniden başlatılması gerekir.",
+            "importHint": "/switch/NX-Activity-Log/import.json konumundaki JSON dosyasından oynatma verilerini NX-Activity-Log'a içe aktararak önceden içe aktarılan verilerin üzerine yazın. Veriler, kullanıcı adları eşleştiğinde ilişkilendirilecektir. Bunun etkili olması için uygulamanın yeniden başlatılması gerekir.",
             "importSuccessful": "Oynatma verileri başarıyla içe aktarıldı.",
             "heading": "İçe/Dışa Aktar",
-            "noImportFile": "import.json gereken konumda bulunamadı."
+            "noImportFile": "Gerekli konumda import.json bulunamadı."
         },
         "launch": {
-            "heading": "Başlatma Ayarları",
+            "heading": "Başlatma Seçenekleri",
             "screen": "Varsayılan Ekran",
-            "screenHint": "Bir kullanıcı seçildikten sonra/başlatıldığında gösterilecek ekran.",
+            "screenHint": "Başlatma/kullanıcı seçimi sonrası gösterilecek ekran.",
             "sort": "Varsayılan Sıralama Yöntemi",
-            "sortHint": "Lansman sırasında kullanılacak 'Tüm Etkinlik' için sıralama yöntemi.",
+            "sortHint": "Başlatma sırasında 'Tüm Aktiviteler' için kullanılacak sıralama yöntemi.",
             "view": "Varsayılan Görünüm Türü",
-            "viewHint": "Lansmanda görüntülenecek faaliyet dönemi."
+            "viewHint": "Başlatma sırasında görüntülenecek aktivite dönemi."
         },
         "other": {
             "adjust": "Oynatma Süresini Ayarla",
-            "adjustHint": "Seçilen kullanıcı için her başlığın oynatma süresini ayrı ayrı ayarla.",
+            "adjustHint": "Seçilen kullanıcı için her başlığın oynatma süresini ayrı ayrı ayarlayın.",
             "heading": "Diğer Seçenekler",
-            "hideDeleted": "Silinmiş Oyunları Gizle",
-            "hideDeletedHint": "Silinen oyunları 'Tüm Etkinlik'ten hariç tutar.",
+            "hide": "Başlıkları Gizle",
+            "hideHint": "NX-Activity-Log içinde gizlenecek başlıkları seçin.",
             "replace": "Kullanıcı Sayfasını Değiştir",
             "replaceBox": {
                 "error": "Bir hata oluştu:",
                 "errorMsg1": "Bu uygulamanın .nro dosyası beklenen konumda bulunamadı:",
-                "errorMsg2": "Bu özellik .nro'nun bu konumda bulunmasını gerektirir.",
-                "errorMsg3": "Lütfen tüm dosyaları + klasörleri taşıyın/yeniden adlandırın ve tekrar deneyin.",
-                "success": "Kurulum başarılı!",
-                "successMsg1": "Aşağıdaki CFW'ler algılandı ve bu özellik etkinleştirildi:",
-                "successMsg2": "Not: Bu özellik bir sistem modülünü kullanmaz, herhangi bir hatayla karşılaşırsanız uygulamada bu özelliği devre dışı bırakın veya silin",
+                "errorMsg2": "Bu özellik .nro dosyasının bu konumda bulunmasını gerektirir.",
+                "errorMsg3": "Lütfen tüm dosya ve klasörleri taşıyın/yeniden adlandırın ve tekrar deneyin.",
+                "success": "Yükleme Başarılı!",
+                "successMsg1": "Aşağıdaki CFW'ler algılandı ve bu özelliğe sahip:",
+                "successMsg2": "Not: Bu özellik bir sysmodule kullanmaz, herhangi bir hata ile karşılaşırsanız uygulamadaki bu özelliği devre dışı bırakın veya silin",
                 "successMsg3": "<cfw içerik klasörü>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "Kullanıcı Sayfasını bu uygulamayla değiştirin. LayeredFS ve Atmosfer 0.10.0+, ReiNX veya SXOS gerektirir."
+            "replaceHint": "Kullanıcı Sayfasını bu uygulamayla değiştirin. LayeredFS ve Atmosphere 0.10.0+, ReiNX veya SXOS gerektirir."
         },
-        "support": "Beni Ko-fi'da destekleyebilirsin:",
-        "translations": "Uygulamayı çeviri konusunda yardımları için aşağıdaki kişilere teşekkür ederiz:",
-        "update": "Güncellemeleri kontrol et",
-        "updateHint": "Not: 90DNS kullanıyorsanız sorun yaşayabilirsiniz. Bu durumda, tekrar deneyin."
+        "support": "Beni Ko-fi üzerinden destekleyebilirsiniz:",
+        "translations": "Uygulamanın çevrilmesinde yardım eden aşağıdaki kişilere teşekkür ederiz:",
+        "update": "Güncellemeleri Kontrol Et",
+        "updateHint": "Not: 90DNS kullanıyorsanız sorunlar yaşayabilirsiniz. Bu durumda daha sonra tekrar deneyin."
     },
     "update": {
-        "cancel": "İptal Et",
+        "cancel": "İptal",
         "download": {
             "dl": "İndiriliyor...",
-            "error": "Dosya indirilemiyor",
+            "error": "Dosya indirilemedi",
             "success": "Güncelleme indirildi!",
-            "successHint": "Uygulama şimdi güncellenecek ve kapanacaktır.",
-            "successHintPage": "Uygulama şimdi güncellenecek ve yeniden başlatılacaktır."
+            "successHint": "Uygulama şimdi güncellenecek ve kapanacak.",
+            "successHintPage": "Uygulama şimdi güncellenecek ve yeniden başlatılacak."
         },
         "error": {
-            "heading": "Güncelleme kontrol edilemedi!",
+            "heading": "Bir güncelleme kontrol edilemedi!",
             "tip": "İnternet bağlantınızı kontrol edin ve/veya daha sonra tekrar deneyin."
         },
         "heading": "Uygulamayı Güncelle",
-        "newAvailable": "$[V] sürümü mevcut!",
+        "newAvailable": "Sürüm $[v] mevcut!",
         "update": "Güncelle",
         "upToDate": "Uygulamanız güncel!",
-        "version": "Versiyon $[v]",
-        "waiting": "GitHub'ı güncellemeler için kontrol edin ..."
+        "version": "Sürüm $[v]",
+        "waiting": "GitHub'da güncellemeler kontrol ediliyor..."
     },
     "userSelect": {
-        "heading": "Bir Kullanıcı Seçin"
+        "heading": "Bir Kullanıcı Seç"
     }
 }

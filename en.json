@@ -74,6 +74,16 @@
             "date": "Last played on $[m] $[d]$[s]",
             "dateYear": "Last played on $[m] $[d]$[s], $[y]"
         },
+        "loading": {
+            "title": "Loading...",
+            "done": "Loading complete!",
+            "failed": "Loading failed!",
+            "finish": "Finishing up...",
+            "init": "Initializing...",
+            "mergeData": "Merging data...",
+            "readImport": "Reading imported data...",
+            "readPDM": "Reading PDM data..."
+        },
         "month": {
             "jan": "January",
             "feb": "February",

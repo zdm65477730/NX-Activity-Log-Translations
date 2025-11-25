@@ -34,25 +34,25 @@
             "back": "戻る",
             "cancel": "キャンセル",
             "date": "日付を選択",
-            "exit": "閉じる",
+            "exit": "終了",
             "ok": "OK",
-            "sort": "ソート",
-            "view": "ビューの変更"
+            "sort": "並び替え",
+            "view": "ビューを変更"
         },
         "close": "閉じる",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
-        "yearSuffix": "年",
+        "yearSuffix": "",
         "dateSuffix": {
-            "nd": "日",
-            "rd": "日",
-            "st": "日",
-            "th": "日"
+            "nd": "",
+            "rd": "",
+            "st": "",
+            "th": ""
         },
         "datePanel": {
             "headingDate": "日付を表示",
-            "headingMonth": "月を見る",
-            "headingYear": "年を見る",
+            "headingMonth": "月を表示",
+            "headingYear": "年を表示",
             "day": "日",
             "month": "月",
             "year": "年"
@@ -61,18 +61,28 @@
         "delete": "削除",
         "disabled": "無効",
         "enabled": "有効",
-        "heading": "$[name]'の活動",
+        "heading": "$[name]のアクティビティ",
         "lastPlayed": {
-            "future": "将来的にプレイ",
-            "secs": "最後に再生された数秒前",
-            "1min": "最後にプレイしたのは1分前",
-            "mins": "最後にプレイしたのは$[m]分前",
-            "1hr": "最後にプレイしたのは1時間前",
-            "hrs": "最後にプレイしたのは$[h]時間前",
-            "1day": "最後にプレイしたのは1日前",
-            "days": "最後にプレイしたのは$[d]日前",
-            "date": "最後にプレイした$[m] $[d]$[s]",
-            "dateYear": "最後にプレイした$[m] $[d]$[s], $[y]"
+            "future": "未来にプレイ",
+            "secs": "数秒前に最後にプレイ",
+            "1min": "1分前に最後にプレイ",
+            "mins": "$[m]分前に最後にプレイ",
+            "1hr": "1時間前に最後にプレイ",
+            "hrs": "$[h]時間前に最後にプレイ",
+            "1day": "1日前に最後にプレイ",
+            "days": "$[d]日前に最後にプレイ",
+            "date": "$[m] $[d]$[s]に最後にプレイ",
+            "dateYear": "$[m] $[d]$[s], $[y]に最後にプレイ"
+        },
+        "loading": {
+            "title": "読み込み中...",
+            "done": "読み込み完了！",
+            "failed": "読み込み失敗！",
+            "finish": "仕上げ中...",
+            "init": "初期化中...",
+            "mergeData": "データをマージ中...",
+            "readImport": "インポートされたデータを読み込み中...",
+            "readPDM": "PDMデータを読み込み中..."
         },
         "month": {
             "jan": "1月",
@@ -102,19 +112,19 @@
                 "dec": "12月"
             }
         },
-        "off": "無効",
-        "on": "有効",
+        "off": "オフ",
+        "on": "オン",
         "no": "いいえ",
-        "noActivity": "この期間、遊びの活動は記録されませんでした。",
+        "noActivity": "この期間のプレイアクティビティは記録されていませんでした。",
         "playedFor" : {
             "0min": "1分未満プレイ",
-            "1min": "1分間プレイ",
-            "mins": "$[m]分間プレイ",
+            "1min": "1分プレイ",
+            "mins": "$[m]分プレイ",
             "mins1sec": "$[m]分1秒プレイ",
             "1min1sec": "1分1秒プレイ",
             "1minSecs": "1分$[s]秒プレイ",
             "minsSecs": "$[m]分$[s]秒プレイ",
-            "1hr": "一時間プレイ",
+            "1hr": "1時間プレイ",
             "hrs": "$[h]時間プレイ",
             "hrs1min": "$[h]時間1分プレイ",
             "1hr1min": "1時間1分プレイ",
@@ -138,29 +148,29 @@
             "1hrMins": "1時間$[m]分",
             "hrsMins": "$[h]時間$[m]分"
         },
-        "playtimeHours": "プレイ時間(時間単位)",
-        "playtimeMinutes": "プレイ時間(分単位)",
+        "playtimeHours": "プレイ時間（時間単位）",
+        "playtimeMinutes": "プレイ時間（分単位）",
         "PM": "PM",
         "pm": "pm",
         "reinx": "ReiNX",
         "screen": {
-            "allActivity": "すべての活動",
-            "recentActivity": "最近の活動",
+            "allActivity": "すべてのアクティビティ",
+            "recentActivity": "最近のアクティビティ",
             "settings": "設定"
         },
         "sort": {
-            "firstPlayed": "最初のプレイタイムまでに",
-            "heading": "タイトルを並べ替える",
-            "leastLaunched": "少なくとも発売された",
-            "leastPlaytime": "最小プレイタイム",
-            "mostLaunched": "ほとんどのローンチによる",
-            "mostPlaytime": "ほとんどのプレイタイムで",
+            "firstPlayed": "最初のプレイタイムで",
+            "heading": "タイトルを並べ替え",
+            "leastLaunched": "最少起動で",
+            "leastPlaytime": "最小プレイタイムで",
+            "mostLaunched": "最も起動で",
+            "mostPlaytime": "最もプレイタイムで",
             "name": "名前で",
-            "recentlyPlayed": "最近プレイした人"
+            "recentlyPlayed": "最近プレイしたで"
         },
         "sxos": "SX OS",
         "timesPlayed": {
-            "multiple": "$[t]回再生",
+            "multiple": "$[t]回プレイ",
             "once": "1回プレイ"
         },
         "totalPlaytime": {
@@ -173,8 +183,8 @@
             "1min1sec": "合計プレイ時間: 1分1秒",
             "1minSecs": "合計プレイ時間: 1分$[s]秒",
             "minsSecs": "合計プレイ時間: $[m]分$[s]秒",
-            "1hr": "合計プレイ時間: 1 hour",
-            "hrs": "合計プレイ時間: $[h] hours",
+            "1hr": "合計プレイ時間: 1時間",
+            "hrs": "合計プレイ時間: $[h]時間",
             "hrs1min": "合計プレイ時間: $[h]時間1分",
             "1hr1min": "合計プレイ時間: 1時間1分",
             "1hrMins": "合計プレイ時間: 1時間$[m]分",
@@ -191,25 +201,25 @@
     "customTheme": {
         "accent": "アクセント",
         "altBackground": "背景パネル",
-        "apply": "申し込み",
+        "apply": "適用",
         "background": "背景",
         "picker": {
             "alpha": "アルファ",
             "blue": "青",
             "green": "緑",
             "red": "赤",
-            "tip": "ヒント: ZL/ZRを押し続けると、値をより速く変更できます!"
+            "tip": "ヒント: ZL/ZRを押し続けると値をより速く変更できます！"
         },
-        "heading": "テーマをカスタマイズする",
+        "heading": "テーマをカスタマイズ",
         "highlight1": "ハイライトアニメーション1",
         "highlight2": "ハイライトアニメーション2",
-        "highlightBG": "背景を強調表示",
-        "image": "背景画像を使用する",
+        "highlightBG": "ハイライト背景",
+        "image": "背景画像を使用",
         "imageError": {
-            "body": "画像が見つからないか、破損しています。名前が正しく保存され、次の場所に配置されていることを確認してください/config/NX-Activity-Log/background.png",
+            "body": "画像が見つからないか破損しています。正しく名前が付けられ/保存され、/config/NX-Activity-Log/background.pngに配置されているか確認してください",
             "heading": "エラーが発生しました..."
         },
-        "imageHint": "/config/NX-Activity-Log/background.pngにある画像をアプリケーションの背景として設定します。画像が1280x720でない場合は、サイズが収まるように変更されます。",
+        "imageHint": "/config/NX-Activity-Log/background.pngにある画像をアプリケーションの背景として設定します。画像が1280x720でない場合、フィットするようにサイズが変更されます。",
         "line": "ライン",
         "mutedLine": "薄暗いライン",
         "mutedText": "薄暗いテキスト",
@@ -218,29 +228,29 @@
         "text": "テキスト"
     },
     "details": {
-        "allTime": "すべての時間の活動",
+        "allTime": "すべての時間のアクティビティ",
         "avgPlaytime": "平均プレイ時間",
         "break": {
-            "appClosed": "アプリケーションは終了しました",
-            "appLaunched": "アプリケーションが起動しました",
-            "appResumed": "アプリケーションが再開されました",
-            "appSuspended": "アプリケーションが一時停止されました",
-            "heading": "再生セッションの詳細",
-            "length": "セッションの長さ",
+            "appClosed": "アプリケーション終了",
+            "appLaunched": "アプリケーション起動",
+            "appResumed": "アプリケーション再開",
+            "appSuspended": "アプリケーション一時停止",
+            "heading": "プレイセッションの詳細",
+            "length": "セッション長",
             "playtime": "合計プレイ時間"
         },
-        "firstPlayed": "最初にプレイした",
-        "lastPlayed": "最後にプレイした",
-        "playSessions": "セッションを再生する",
-        "playtime": "プレイタイム",
+        "firstPlayed": "最初にプレイ",
+        "lastPlayed": "最後にプレイ",
+        "playSessions": "プレイセッション",
+        "playtime": "プレイ時間",
         "popup": {
-            "heading": "プレイセッションは、ゲームが開始されてから連続して終了するまでの時間を表します。",
-            "msg1": "起動時間、終了時間、プレイ時間、および全体的なプレイ時間の割合が表示されます。",
-            "msg2": "セッションを選択して、より詳細な内訳を表示します",
-            "msg3": "注: アスタリスクの付いたセッションは、選択した日付の前に開始または終了します。それらのプレイ時間は現在の時間範囲を反映するように調整されていますが、それらの内訳はセッションの全期間を示します。"
+            "heading": "プレイセッションは、ゲームが起動されてから連続して終了されるまでの時間を表します。",
+            "msg1": "起動時間、終了時間、プレイ時間、および全体のプレイ時間の割合が表示されます。",
+            "msg2": "詳細な内訳を表示するにはセッションを選択してください。",
+            "msg3": "注: アスタリスクのあるセッションは、選択された日付より前および/または後に終了します。そのプレイ時間は現在の時間範囲を反映するように調整されていますが、その内訳にはセッションの全期間が表示されます。"
         },
         "timesPlayed": {
-            "heading": "プレイした回数",
+            "heading": "プレイ回数",
             "multiple": "$[t]回",
             "once": "1回"
         }
@@ -248,99 +258,99 @@
     "hideTitles": {
         "heading": "非表示にするタイトルを選択",
         "save": "セーブ",
-        "titleHidden": "タイトルを非表示",
-        "titlesHidden": "隠されたタイトル"
+        "titleHidden": "タイトル非表示",
+        "titlesHidden": "タイトル非表示"
     },
     "recentActivity": {
-        "titleHeading": "プレイされたタイトル"
+        "titleHeading": "プレイしたタイトル"
     },
     "settings": {
-        "about": "私のアプリをご利用いただきありがとうございます! お役に立てば幸いです! :)",
+        "about": "私のアプリを使ってくれてありがとう！役に立って嬉しいです！ :)",
         "appearance": {
-            "24H": "24時間制を使用する",
-            "graph": "グラフ値を表示する",
-            "graphHint": "グラフの各バーの上に値を表示するかどうかを切り替えます。",
+            "24H": "24時間制を使用",
+            "graph": "グラフの値を表示",
+            "graphHint": "グラフ上の各バーの上に値を表示するかどうかを切り替えます。",
             "heading": "外観",
             "language": "言語",
             "theme": {
                 "auto": "自動",
                 "custom": "カスタム",
-                "dark": "ベーシックブラック",
+                "dark": "基本ブラック",
                 "heading": "テーマ",
-                "light": "ベーシックホワイト"
+                "light": "基本ホワイト"
             },
-            "themeEdit": "テーマをカスタマイズする",
-            "themeHint": "アプリケーションに使用するテーマ。自動は、スイッチの設定に基づいて黒/白を選択します。 [カスタム]を選択して、背景画像を設定し、色を調整します。"
+            "themeEdit": "テーマをカスタマイズ",
+            "themeHint": "アプリケーションで使用するテーマ。自動はSwitchの設定に基づいて黒/白を選択します。カスタムを選択して背景画像を設定し、色を調整します。"
         },
         "importExport": {
-            "confirmDelete": "インポートしたすべてのデータを削除してもよろしいですか?",
-            "confirmDeleteBody": "このアクションは元に戻せません。",
-            "deleteImport": "インポートしたデータを削除する",
-            "deleteImportHint": "以前にインポートした再生データを削除します。これを有効にするには、アプリケーションを再起動する必要があります",
-            "deleteSuccessful": "インポートされたデータは正常に削除されました",
-            "export": "プレイデータをJSONにエクスポートする",
-            "exporting": "データのエクスポート...",
-            "exportHint": "すべてのユーザーの再生データを/switch/NX-Activity-Log/export.jsonのJSONにエクスポートします。このファイルがすでに存在する場合は上書きされます。",
-            "exportSuccessful": "正常にエクスポートされたデータを再生します。",
-            "import": "JSONからPlayデータをインポートする",
-            "importing": "JSONからプレイデータをインポートする...",
-            "importHint": "/switch/NX-Activity-Log/import.jsonにあるJSONからNX-Activity-Logに再生データをインポートし、以前にインポートしたデータを上書きします。ユーザー名が一致する場所にデータが関連付けられます。これを有効にするには、アプリケーションを再起動する必要があります。",
-            "importSuccessful": "正常にインポートされたデータを再生します。",
-            "heading": "インポート・エクスポート",
-            "noImportFile": "import.jsonが必要な場所に見つかりませんでした。"
+            "confirmDelete": "すべてのインポートされたデータを削除してもよろしいですか？",
+            "confirmDeleteBody": "この操作は元に戻せません。",
+            "deleteImport": "インポートされたデータを削除",
+            "deleteImportHint": "以前にインポートされたプレイデータを削除します。これを有効にするにはアプリケーションを再起動する必要があります。",
+            "deleteSuccessful": "インポートされたデータが正常に削除されました。",
+            "export": "プレイデータをJSONにエクスポート",
+            "exporting": "データをエクスポート中...",
+            "exportHint": "すべてのユーザーのプレイデータを/switch/NX-Activity-Log/export.jsonのJSONにエクスポートします。このファイルが既に存在する場合は上書きされます。",
+            "exportSuccessful": "プレイデータが正常にエクスポートされました。",
+            "import": "JSONからプレイデータをインポート",
+            "importing": "データをインポート中...",
+            "importHint": "/switch/NX-Activity-Log/import.jsonのJSONからプレイデータをNX-Activity-Logにインポートし、以前にインポートされたデータを上書きします。ユーザーネームが一致する場所でデータが関連付けられます。これを有効にするにはアプリケーションを再起動する必要があります。",
+            "importSuccessful": "プレイデータが正常にインポートされました。",
+            "heading": "インポート/エクスポート",
+            "noImportFile": "必要な場所にimport.jsonが見つかりませんでした。"
         },
         "launch": {
             "heading": "起動オプション",
             "screen": "デフォルト画面",
-            "screenHint": "起動時/ユーザー選択後に表示する画面。",
-            "sort": "デフォルトのソート方法",
-            "sortHint": "起動時に使用する「すべてのアクティビティ」のソート方法。",
-            "view": "デフォルトのビュータイプ",
-            "viewHint": "起動時に表示するアクティビティの期間。"
+            "screenHint": "起動時/ユーザー選択後の表示画面。",
+            "sort": "デフォルトの並べ替え方法",
+            "sortHint": "起動時に使用する「すべてのアクティビティ」の並べ替え方法。",
+            "view": "デフォルトの表示タイプ",
+            "viewHint": "起動時に表示するアクティビティ期間。"
         },
         "other": {
-            "adjust": "プレイタイムを調整する",
-            "adjustHint": "選択したユーザーの各タイトルの再生時間を個別に調整します。",
-            "heading": "別のオプション",
+            "adjust": "プレイ時間を調整",
+            "adjustHint": "選択したユーザーの各タイトルのプレイ時間を個別に調整します。",
+            "heading": "その他のオプション",
             "hide": "タイトルを非表示",
-            "hideHint": "NX-Activity-Log内から非表示にするタイトルを選択します。",
-            "replace": "ユーザーページを置き換える",
+            "hideHint": "NX-Activity-Log内で非表示にするタイトルを選択します。",
+            "replace": "ユーザーページを置き換え",
             "replaceBox": {
                 "error": "エラーが発生しました:",
-                "errorMsg1": "このアプリケーションの.nroが予期された場所で見つかりませんでした:",
-                "errorMsg2": "この機能では、この場所に.nroが存在する必要があります。",
-                "errorMsg3": "ファイルとフォルダを移動/名前変更して、再試行してください。",
-                "success": "インストールに成功!",
-                "successMsg1": "次のCFWが検出され、この機能が有効になっています:",
-                "successMsg2": "ノート: この機能はsysmoduleを使用しません。エラーが発生した場合は、アプリでこの機能を無効にするか、削除してください",
+                "errorMsg1": "このアプリケーションの.nroが予期される場所に見つかりませんでした:",
+                "errorMsg2": "この機能には.nroがこの場所に存在する必要があります。",
+                "errorMsg3": "ファイルとフォルダを移動/名前変更して、もう一度お試しください。",
+                "success": "インストール成功！",
+                "successMsg1": "以下のCFWが検出され、この機能が有効になっています:",
+                "successMsg2": "注: この機能はsysmoduleを使用しません。エラーが発生した場合は、アプリでこの機能を無効にするか、削除してください",
                 "successMsg3": "<cfwコンテンツフォルダ>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "ユーザーページをこのアプリに置き換えます。 LayeredFSと、Atmosphere 0.10.0 +、ReiNX、またはSXOSのいずれかが必要です"
+            "replaceHint": "ユーザーページをこのアプリで置き換えます。LayeredFSとAtmosphere 0.10.0+、ReiNX、またはSXOSが必要です。"
         },
-        "support": "Ko-fiで私をサポートできます:",
-        "translations": "アプリの翻訳にご協力いただきました以下の方々に感謝いたします:",
-        "update": "更新を確認する",
-        "updateHint": "ノート: 90DNSを使用している場合、問題が発生する可能性があります。この場合は、もう一度やり直してください。"
+        "support": "Ko-fiで支援できます:",
+        "translations": "アプリの翻訳に協力してくれた以下の皆さんに感謝します:",
+        "update": "アップデートを確認",
+        "updateHint": "注: 90DNSを使用していると問題が発生する可能性があります。その場合は、もう一度お試しください。"
     },
     "update": {
         "cancel": "キャンセル",
         "download": {
             "dl": "ダウンロード中...",
-            "error": "ファイルをダウンロードすることができません",
-            "success": "アップデートダウンロード完了!",
-            "successHint": "アプリが更新されて閉じます。",
-            "successHintPage": "アプリが更新され、再起動します。"
+            "error": "ファイルをダウンロードできません",
+            "success": "アップデートをダウンロードしました！",
+            "successHint": "アプリが今すぐ更新され、終了します。",
+            "successHintPage": "アプリが今すぐ更新され、再起動します。"
         },
         "error": {
-            "heading": "更新を確認できません!",
-            "tip": "インターネット接続を確認するか、後で再試行してください。"
+            "heading": "アップデートを確認できません！",
+            "tip": "インターネット接続を確認し、後でもう一度お試しください。"
         },
-        "heading": "アプリケーションの更新",
-        "newAvailable": "バージョン$[v]が利用可能です!",
-        "update": "アップデート",
-        "upToDate": "あなたのアプリは最新です!",
-        "version": "バージョン$[v]",
-        "waiting": "GitHubで更新を確認中..."
+        "heading": "アプリケーションを更新",
+        "newAvailable": "バージョン$vが利用可能です！",
+        "update": "更新",
+        "upToDate": "アプリは最新です！",
+        "version": "バージョン$v",
+        "waiting": "GitHubでアップデートを確認中..."
     },
     "userSelect": {
         "heading": "ユーザーを選択"
