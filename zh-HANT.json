@@ -6,7 +6,7 @@
             "minute": "分鐘",
             "second": "秒"
         },
-        "save": "保存"
+        "save": "儲存"
     },
     "allActivity": {
         "sort": {
@@ -37,7 +37,7 @@
             "exit": "退出",
             "ok": "確定",
             "sort": "排序",
-            "view": "更改視圖"
+            "view": "更改檢視"
         },
         "close": "關閉",
         "dateFormat": "$[m] $[d]$[s]",
@@ -57,9 +57,9 @@
             "month": "月",
             "year": "年"
         },
-        "default": "系統默認",
+        "default": "系統預設",
         "delete": "刪除",
-        "disabled": "已禁用",
+        "disabled": "已停用",
         "enabled": "已啟用",
         "heading": "$[name] 的活動",
         "lastPlayed": {
@@ -75,14 +75,14 @@
             "dateYear": "上次遊玩於 $[y] $[m] $[d]$[s]"
         },
         "loading": {
-            "title": "正在加載...",
-            "done": "加載完成！",
-            "failed": "加載失敗！",
+            "title": "正在載入...",
+            "done": "載入完成！",
+            "failed": "載入失敗！",
             "finish": "正在完成...",
             "init": "正在初始化...",
-            "mergeData": "正在合併數據...",
-            "readImport": "正在讀取導入數據...",
-            "readPDM": "正在讀取 PDM 數據..."
+            "mergeData": "正在合併資料...",
+            "readImport": "正在讀取匯入資料...",
+            "readPDM": "正在讀取 PDM 資料..."
         },
         "month": {
             "jan": "1月",
@@ -156,7 +156,7 @@
         "screen": {
             "allActivity": "所有活動",
             "recentActivity": "近期活動",
-            "settings": "設置"
+            "settings": "設定"
         },
         "sort": {
             "firstPlayed": "按首次遊戲時間",
@@ -210,20 +210,20 @@
             "red": "紅色",
             "tip": "提示：按住 ZL/ZR 可更快地更改數值！"
         },
-        "heading": "自定義主題",
-        "highlight1": "高亮動畫 1",
-        "highlight2": "高亮動畫 2",
-        "highlightBG": "高亮背景",
+        "heading": "自訂主題",
+        "highlight1": "突顯動畫 1",
+        "highlight2": "突顯動畫 2",
+        "highlightBG": "突顯背景",
         "image": "使用背景圖片",
         "imageError": {
-            "body": "找不到圖片或圖片已損壞。請檢查圖片命名/保存是否正確，並放置於 /config/NX-Activity-Log/background.png",
+            "body": "找不到圖片或圖片已損壞。請檢查圖片命名/儲存是否正確，並放置於 /config/NX-Activity-Log/background.png",
             "heading": "發生錯誤..."
         },
-        "imageHint": "將位於 /config/NX-Activity-Log/background.png 的圖片設置為應用程序背景。如果圖片不是 1280x720，將調整大小以適應。",
+        "imageHint": "將位於 /config/NX-Activity-Log/background.png 的圖片設定為應用程式背景。如果圖片不是 1280x720，將調整大小以適應。",
         "line": "線條",
         "mutedLine": "暗淡線條",
         "mutedText": "暗淡文字",
-        "preset": "從預設加載",
+        "preset": "從預設載入",
         "selected": "已選中",
         "text": "文字"
     },
@@ -231,10 +231,10 @@
         "allTime": "所有時間活動",
         "avgPlaytime": "平均遊戲時長",
         "break": {
-            "appClosed": "應用程序已關閉",
-            "appLaunched": "應用程序已啟動",
-            "appResumed": "應用程序已恢復",
-            "appSuspended": "應用程序已暫停",
+            "appClosed": "應用程式已關閉",
+            "appLaunched": "應用程式已啟動",
+            "appResumed": "應用程式已復原",
+            "appSuspended": "應用程式已暫停",
             "heading": "遊戲會話詳情",
             "length": "會話時長",
             "playtime": "總遊戲時長"
@@ -247,7 +247,7 @@
             "heading": "遊戲會話代表從遊戲啟動到退出的連續時間。",
             "msg1": "顯示啟動時間、退出時間、遊戲時長和總體遊戲時長的百分比。",
             "msg2": "選擇一個會話以查看更詳細的分解。",
-            "msg3": "注意：帶星號的會話在選定日期之前開始和/或之後結束。其遊戲時長已調整以反映當前時間範圍，但其分解將顯示會話的完整持續時間。"
+            "msg3": "注意：帶星號的會話在選定日期之前開始和/或之後結束。其遊戲時長已調整以反映目前時間範圍，但其分解將顯示會話的完整持續時間。"
         },
         "timesPlayed": {
             "heading": "遊玩次數",
@@ -257,7 +257,7 @@
     },
     "hideTitles": {
         "heading": "選擇要隱藏的遊戲",
-        "save": "保存",
+        "save": "儲存",
         "titleHidden": "個遊戲已隱藏",
         "titlesHidden": "個遊戲已隱藏"
     },
@@ -265,47 +265,47 @@
         "titleHeading": "遊玩的遊戲"
     },
     "settings": {
-        "about": "感謝使用我的應用程序！希望它對您有用！:)",
+        "about": "感謝使用我的應用程式！希望它對您有用！:)",
         "appearance": {
-            "24H": "使用 24 小時製",
+            "24H": "使用 24 小時制",
             "graph": "顯示圖表數值",
             "graphHint": "切換圖表上每個條形上方的數值是否可見。",
             "heading": "外觀",
             "language": "語言",
             "theme": {
                 "auto": "自動",
-                "custom": "自定義",
+                "custom": "自訂",
                 "dark": "基礎黑色",
                 "heading": "主題",
                 "light": "基礎白色"
             },
-            "themeEdit": "自定義主題",
-            "themeHint": "要使用的應用程序主題。自動根據您的 Switch 設置選擇黑色/白色。選擇自定義以設置背景圖片和調整顏色。"
+            "themeEdit": "自訂主題",
+            "themeHint": "要使用的應用程式主題。自動根據您的 Switch 設定選擇黑色/白色。選擇自訂以設定背景圖片和調整顏色。"
         },
         "importExport": {
-            "confirmDelete": "確定要刪除所有導入的數據嗎？",
-            "confirmDeleteBody": "此操作無法撤銷。",
-            "deleteImport": "刪除導入的數據",
-            "deleteImportHint": "刪除先前導入的遊戲數據。應用程序必須重新啟動才能使此更改生效。",
-            "deleteSuccessful": "已成功刪除導入的數據。",
-            "export": "將遊戲數據導出為 JSON",
-            "exporting": "正在導出數據...",
-            "exportHint": "將所有用戶的遊戲數據導出到 /switch/NX-Activity-Log/export.json 的 JSON 文件中。如果該文件已存在，將被覆蓋。",
-            "exportSuccessful": "已成功導出遊戲數據。",
-            "import": "從 JSON 導入遊戲數據",
-            "importing": "正在導入數據...",
-            "importHint": "將 /switch/NX-Activity-Log/import.json 的 JSON 文件中的遊戲數據導入 NX-Activity-Log，覆蓋任何先前導入的數據。數據將與用戶名匹配關聯。應用程序必須重新啟動才能使此更改生效。",
-            "importSuccessful": "已成功導入遊戲數據。",
-            "heading": "導入/導出",
+            "confirmDelete": "確定要刪除所有匯入的資料嗎？",
+            "confirmDeleteBody": "此操作無法復原。",
+            "deleteImport": "刪除匯入的資料",
+            "deleteImportHint": "刪除先前匯入的遊戲資料。應用程式必須重新啟動才能使此更改生效。",
+            "deleteSuccessful": "已成功刪除匯入的資料。",
+            "export": "將遊戲資料匯出為 JSON",
+            "exporting": "正在匯出資料...",
+            "exportHint": "將所有用戶的遊戲資料匯出到 /switch/NX-Activity-Log/export.json 的 JSON 文件中。如果該文件已存在，將被覆蓋。",
+            "exportSuccessful": "已成功匯出遊戲資料。",
+            "import": "從 JSON 匯入遊戲資料",
+            "importing": "正在匯入資料...",
+            "importHint": "將 /switch/NX-Activity-Log/import.json 的 JSON 文件中的遊戲資料匯入 NX-Activity-Log，覆蓋任何先前匯入的資料。資料將與用戶名匹配關聯。應用程式必須重新啟動才能使此更改生效。",
+            "importSuccessful": "已成功匯入遊戲資料。",
+            "heading": "匯入/匯出",
             "noImportFile": "在所需位置找不到 import.json。"
         },
         "launch": {
             "heading": "啟動選項",
-            "screen": "默認屏幕",
-            "screenHint": "啟動/選擇用戶後要顯示的屏幕。",
-            "sort": "默認排序方法",
-            "sortHint": "啟動時用於「所有活動」的排序方法。",
-            "view": "默認視圖類型",
+            "screen": "預設螢幕",
+            "screenHint": "啟動/選擇用戶後要顯示的螢幕。",
+            "sort": "預設排序方法",
+            "sortHint": "啟動時用於“所有活動”的排序方法。",
+            "view": "預設檢視類型",
             "viewHint": "啟動時要查看的活動期間。"
         },
         "other": {
@@ -314,21 +314,21 @@
             "heading": "其他選項",
             "hide": "隱藏遊戲",
             "hideHint": "選擇要在 NX-Activity-Log 中隱藏的遊戲。",
-            "replace": "替換用戶頁面",
+            "replace": "取代用戶頁面",
             "replaceBox": {
                 "error": "發生錯誤：",
-                "errorMsg1": "在此預期位置未找到此應用程序的 .nro 文件：",
-                "errorMsg2": "此功能要求 .nro 文件位於此位置。",
-                "errorMsg3": "請移動/重命名任何文件和文件夾，然後重試。",
+                "errorMsg1": "在此預期位置未找到此應用程式的 .nro 文件：",
+                "errorMsg2": "此功能要求 .nro 檔案位於此位置。",
+                "errorMsg3": "請移動/重新命名任何文件和資料夾，然後重試。",
                 "success": "安裝成功！",
                 "successMsg1": "檢測到以下 CFW 並已啟用此功能：",
-                "successMsg2": "注意：此功能不使用系統模塊，如果您遇到任何錯誤，請在應用程序中禁用此功能或刪除",
-                "successMsg3": "<cfw 內容文件夾>/0100000000001013/exefs.nsp"
+                "successMsg2": "注意：此功能不使用系統模組，如果您遇到任何錯誤，請在應用程式中停用此功能或刪除",
+                "successMsg3": "<cfw 內容資料夾>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "用此應用程序替換用戶頁面。需要 LayeredFS 和 Atmosphere 0.10.0+、ReiNX 或 SXOS。"
+            "replaceHint": "用此應用程式取代用戶頁面。需要 LayeredFS 和 Atmosphere 0.10.0+、ReiNX 或 SXOS。"
         },
         "support": "您可以在 Ko-fi 上支持我：",
-        "translations": "感謝以下人員幫助翻譯應用程序：",
+        "translations": "感謝以下人員幫助翻譯應用程式：",
         "update": "檢查更新",
         "updateHint": "注意：如果您使用 90DNS，可能會遇到問題。如果是這種情況，請稍後重試。"
     },
@@ -338,17 +338,17 @@
             "dl": "正在下載...",
             "error": "無法下載文件",
             "success": "更新已下載！",
-            "successHint": "應用程序現在將更新並關閉。",
-            "successHintPage": "應用程序現在將更新並重新啟動。"
+            "successHint": "應用程式現在將更新並關閉。",
+            "successHintPage": "應用程式現在將更新並重新啟動。"
         },
         "error": {
             "heading": "無法檢查更新！",
-            "tip": "請檢查您的網絡連接和/或稍後重試。"
+            "tip": "請檢查您的網路連接和/或稍後重試。"
         },
-        "heading": "更新應用程序",
+        "heading": "更新應用程式",
         "newAvailable": "版本 $[v] 可用！",
         "update": "更新",
-        "upToDate": "您的應用程序已是最新版本！",
+        "upToDate": "您的應用程式已是最新版本！",
         "version": "版本 $[v]",
         "waiting": "正在檢查 GitHub 上的更新..."
     },
